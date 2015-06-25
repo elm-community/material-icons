@@ -1,0 +1,32 @@
+{
+    "version": "1.0.0",
+    "summary": "Material Icons Library",
+    "repository": "https://github.com/USER/PROJECT.git",
+    "license": "BSD3",
+    "source-directories": [
+        "src"
+    ],
+    "exposed-modules": [
+      "Material.Icons.Action",
+      "Material.Icons.Alert",
+      "Material.Icons.AV",
+      "Material.Icons.Communication",
+      "Material.Icons.Content",
+      "Material.Icons.Device",
+      "Material.Icons.Editor",
+      "Material.Icons.File",
+      "Material.Icons.Hardware",
+      "Material.Icons.Image",
+      "Material.Icons.Maps",
+      "Material.Icons.Navigation",
+      "Material.Icons.Notification",
+      "Material.Icons.Social",
+      "Material.Icons.Toggle"
+    ],
+    "dependencies": {
+        "elm-lang/core": "2.1.0 <= v < 3.0.0",
+        "evancz/elm-svg": "1.0.2 <= v < 2.0.0",
+        "evancz/virtual-dom": "1.2.3 <= v < 2.0.0"
+    },
+    "elm-version": "0.15.0 <= v < 0.16.0"
+}
