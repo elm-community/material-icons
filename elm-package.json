@@ -1,5 +1,5 @@
 {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "summary": "Material Icons Library",
     "repository": "https://github.com/TheSeamau5/elm-material-icons.git",
     "license": "BSD3",
@@ -7,21 +7,21 @@
         "src"
     ],
     "exposed-modules": [
-      "Material.Icons.Action",
-      "Material.Icons.Alert",
-      "Material.Icons.AV",
-      "Material.Icons.Communication",
-      "Material.Icons.Content",
-      "Material.Icons.Device",
-      "Material.Icons.Editor",
-      "Material.Icons.File",
-      "Material.Icons.Hardware",
-      "Material.Icons.Image",
-      "Material.Icons.Maps",
-      "Material.Icons.Navigation",
-      "Material.Icons.Notification",
-      "Material.Icons.Social",
-      "Material.Icons.Toggle"
+        "Material.Icons.Action",
+        "Material.Icons.Alert",
+        "Material.Icons.Av",
+        "Material.Icons.Communication",
+        "Material.Icons.Content",
+        "Material.Icons.Device",
+        "Material.Icons.Editor",
+        "Material.Icons.File",
+        "Material.Icons.Hardware",
+        "Material.Icons.Image",
+        "Material.Icons.Maps",
+        "Material.Icons.Navigation",
+        "Material.Icons.Notification",
+        "Material.Icons.Social",
+        "Material.Icons.Toggle"
     ],
     "dependencies": {
         "elm-lang/core": "2.1.0 <= v < 3.0.0",
