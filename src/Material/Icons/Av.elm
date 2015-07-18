@@ -1,4 +1,4 @@
-module Material.Icons.AV where
+module Material.Icons.Av where
 
 {-|
 
