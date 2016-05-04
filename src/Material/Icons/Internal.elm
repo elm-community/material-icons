@@ -1,11 +1,11 @@
-module Material.Icons.Internal where
+module Material.Icons.Internal exposing (..)
 
 import Color  exposing (Color)
 import Svg    exposing (Svg)
 import Svg.Attributes
 
 
-icon : String -> Color -> Int -> Svg
+icon : String -> Color -> Int -> Svg msg
 icon path color size =
   let
       stringSize = toString size
@@ -19,7 +19,7 @@ icon path color size =
           ]
           [ Svg.path
                 [ Svg.Attributes.d path
-                , Svg.Attributes.fill stringColor  
+                , Svg.Attributes.fill stringColor
                 ]
                 []
           ]
