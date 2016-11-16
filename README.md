@@ -1,6 +1,6 @@
 # Material Icons for Elm
 
-This library offers access to all of [Google's Material icons](https://www.google.com/design/icons/) in elm-svg.
+This library offers access to all of [Google's Material icons](https://www.google.com/design/icons/) in elm-lang/svg.
 
 All icons functions expect a color and a size, which is used as both the width and the height of the icon.
 
