@@ -1,7 +1,7 @@
 {
-    "version": "2.0.1",
+    "version": "1.0.0",
     "summary": "Material Icons Library",
-    "repository": "https://github.com/elm-community/elm-material-icons.git",
+    "repository": "https://github.com/elm-community/material-icons.git",
     "license": "BSD3",
     "source-directories": [
         "src"
