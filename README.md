@@ -15,3 +15,13 @@ For example :
 ```elm
 import Material.Icons.Action exposing (account_balance)
 ```
+
+
+## Development
+
+To generate the code for the icons, run:
+
+```bash
+bundle
+ruby generate.rb
+```
