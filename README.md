@@ -16,12 +16,12 @@ For example :
 import Material.Icons.Action exposing (account_balance)
 ```
 
-
 ## Development
 
 To generate the code for the icons, run:
 
 ```bash
-bundle
-ruby generate.rb
+bundle --gemfile=gen/Gemfile
+ruby gen/generate.rb
 ```
+

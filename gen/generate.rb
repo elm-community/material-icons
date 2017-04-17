@@ -7,7 +7,7 @@ require "fileutils"
 # Constants
 # =========
 
-ROOT = Dir.pwd
+ROOT = %x`git rev-parse --show-toplevel`.chomp
 SOT_DIR = File.join ROOT, "tmp", "sot"
 OUT_DIR = File.join ROOT, "out" # TODO: use `tmp` dir
 SKIP_CATS = %w(iconfont sprites)
