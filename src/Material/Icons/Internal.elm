@@ -5,8 +5,8 @@ import Svg exposing (Svg)
 import Svg.Attributes
 
 
-icon : List (Svg msg) -> Color -> Int -> Svg msg
-icon children color size =
+icon : String -> List (Svg msg) -> Color -> Int -> Svg msg
+icon viewBox children color size =
     let
         stringSize =
             toString size
@@ -17,7 +17,7 @@ icon children color size =
         Svg.svg
             [ Svg.Attributes.width stringSize
             , Svg.Attributes.height stringSize
-            , Svg.Attributes.viewBox "0 0 24 24"
+            , Svg.Attributes.viewBox viewBox
             ]
             [ Svg.g
                 [ Svg.Attributes.fill stringColor ]

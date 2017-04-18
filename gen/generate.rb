@@ -9,7 +9,7 @@ require "fileutils"
 
 ROOT = %x`git rev-parse --show-toplevel`.chomp
 SOT_DIR = File.join ROOT, "tmp", "sot"
-OUT_DIR = File.join ROOT, "out" # TODO: use `tmp` dir
+OUT_DIR = File.join ROOT, "tmp", "out"
 SKIP_CATS = %w(iconfont sprites)
 
 
@@ -45,7 +45,7 @@ end
 
 
 def get_icon_name(cat, icon_path)
-  base = File.basename(icon_path, "_24px.svg").sub(/^ic_/, "")
+  base = icon_path.scan(/.*\/ic_(.*)_\d*x?\d+px\.svg$/)[0][0]
 
   # lookup table
   case "#{cat}/#{base}"
@@ -112,7 +112,24 @@ CATEGORIES.each do |cat_path|
   next if SKIP_CATS.include?(cat_base)
 
   # find icons
-  svg_files = %x`ls #{cat_path}/svg/production/*_24px.svg`.split("\n")
+  svg_files_with_duplicates = %x`ls #{cat_path}svg/production/*.svg`.split("\n")
+  svg_files = svg_files_with_duplicates.reduce([]) do |acc, svg_path|
+    scan = svg_path.scan(/_(\d+x)?(\d+)px\.svg$/).first
+    height = scan[1]
+    width = scan[0]&.chomp("x") || height
+    name = get_icon_name(cat, svg_path)
+
+    obj = {
+      name: name,
+      path: svg_path,
+      view_box: "0 0 #{width} #{height}"
+    }
+
+    if acc.find_index { |x| x[:name] == name }
+      then acc
+      else acc + [obj]
+      end
+  end
 
   # {log}
   puts "Processing #{cat}"
@@ -127,8 +144,8 @@ CATEGORIES.each do |cat_path|
   HERE
 
   # {file} Pt. 2
-  svg_files.each do |svg_path|
-    icon_name = get_icon_name(cat, svg_path)
+  svg_files.each do |obj|
+    icon_name = obj[:name]
     append_to_file cat_out, "@docs #{icon_name}\n"
   end
 
@@ -144,8 +161,10 @@ CATEGORIES.each do |cat_path|
   HERE
 
   # {file} Pt. 4
-  svg_files.each do |svg_path|
-    icon_name = get_icon_name(cat, svg_path)
+  svg_files.each do |obj|
+    icon_name = obj[:name]
+    svg_path = obj[:path]
+    view_box = obj[:view_box]
 
     # {log}
     puts "Processing #{cat}/#{icon_name}"
@@ -178,7 +197,7 @@ CATEGORIES.each do |cat_path|
     append_to_file cat_out, <<~HERE
       {-|-}
       #{icon_name} : Color -> Int -> Svg msg
-      #{icon_name} = icon [ #{(paths + circles).join(", ")} ]
+      #{icon_name} = icon "#{view_box}" [ #{(paths + circles).join(", ")} ]
     HERE
   end
 end
