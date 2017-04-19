@@ -16,14 +16,14 @@ module Material.Icons.Hardware exposing (..)
 @docs headset
 @docs headset_mic
 @docs keyboard
-@docs keyboard_arrow_down
-@docs keyboard_arrow_left
-@docs keyboard_arrow_right
-@docs keyboard_arrow_up
 @docs keyboard_arrow_backspace
 @docs keyboard_arrow_capslock
+@docs keyboard_arrow_down
 @docs keyboard_arrow_hide
+@docs keyboard_arrow_left
 @docs keyboard_arrow_return
+@docs keyboard_arrow_right
+@docs keyboard_arrow_up
 @docs keyboard_tab
 @docs keyboard_voice
 @docs laptop
@@ -60,145 +60,145 @@ import Material.Icons.Internal exposing (icon)
 
 {-|-}
 cast : Color -> Int -> Svg msg
-cast = icon "0 0 24 24" [ Svg.path [ d "M21 3H3c-1.1 0-2 .9-2 2v3h2V5h18v14h-7v2h7c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM1 18v3h3c0-1.66-1.34-3-3-3zm0-4v2c2.76 0 5 2.24 5 5h2c0-3.87-3.13-7-7-7zm0-4v2c4.97 0 9 4.03 9 9h2c0-6.08-4.93-11-11-11z" ] [] ]
+cast = icon "0 0 48 48" [ Svg.path [ d "M42 6H6c-2.21 0-4 1.79-4 4v6h4v-6h36v28H28v4h14c2.21 0 4-1.79 4-4V10c0-2.21-1.79-4-4-4zM2 36v6h6c0-3.31-2.69-6-6-6zm0-8v4c5.52 0 10 4.48 10 10h4c0-7.73-6.27-14-14-14zm0-8v4c9.94 0 18 8.06 18 18h4c0-12.15-9.85-22-22-22z" ] [] ]
 {-|-}
 cast_connected : Color -> Int -> Svg msg
-cast_connected = icon "0 0 24 24" [ Svg.path [ d "M1 18v3h3c0-1.66-1.34-3-3-3zm0-4v2c2.76 0 5 2.24 5 5h2c0-3.87-3.13-7-7-7zm18-7H5v1.63c3.96 1.28 7.09 4.41 8.37 8.37H19V7zM1 10v2c4.97 0 9 4.03 9 9h2c0-6.08-4.93-11-11-11zm20-7H3c-1.1 0-2 .9-2 2v3h2V5h18v14h-7v2h7c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z" ] [] ]
+cast_connected = icon "0 0 48 48" [ Svg.path [ d "M2 36v6h6c0-3.31-2.69-6-6-6zm0-8v4c5.52 0 10 4.48 10 10h4c0-7.73-6.27-14-14-14zm36-14H10v3.27c7.92 2.56 14.17 8.81 16.73 16.73H38V14zM2 20v4c9.94 0 18 8.06 18 18h4c0-12.15-9.85-22-22-22zM42 6H6c-2.21 0-4 1.79-4 4v6h4v-6h36v28H28v4h14c2.21 0 4-1.79 4-4V10c0-2.21-1.79-4-4-4z" ] [] ]
 {-|-}
 computer : Color -> Int -> Svg msg
-computer = icon "0 0 24 24" [ Svg.path [ d "M20 18c1.1 0 1.99-.9 1.99-2L22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2H0v2h24v-2h-4zM4 6h16v10H4V6z" ] [] ]
+computer = icon "0 0 48 48" [ Svg.path [ d "M40 36c2.21 0 3.98-1.79 3.98-4L44 12c0-2.21-1.79-4-4-4H8c-2.21 0-4 1.79-4 4v20c0 2.21 1.79 4 4 4H0v4h48v-4h-8zM8 12h32v20H8V12z" ] [] ]
 {-|-}
 desktop_mac : Color -> Int -> Svg msg
-desktop_mac = icon "0 0 24 24" [ Svg.path [ d "M21 2H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h7l-2 3v1h8v-1l-2-3h7c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 12H3V4h18v10z" ] [] ]
+desktop_mac = icon "0 0 48 48" [ Svg.path [ d "M42 4H6C3.79 4 2 5.79 2 8v24c0 2.21 1.79 4 4 4h14l-4 6v2h16v-2l-4-6h14c2.21 0 4-1.79 4-4V8c0-2.21-1.79-4-4-4zm0 24H6V8h36v20z" ] [] ]
 {-|-}
 desktop_windows : Color -> Int -> Svg msg
-desktop_windows = icon "0 0 24 24" [ Svg.path [ d "M21 2H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h7v2H8v2h8v-2h-2v-2h7c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H3V4h18v12z" ] [] ]
+desktop_windows = icon "0 0 48 48" [ Svg.path [ d "M42 4H6C3.79 4 2 5.79 2 8v24c0 2.21 1.79 4 4 4h14v4h-4v4h16v-4h-4v-4h14c2.21 0 4-1.79 4-4V8c0-2.21-1.79-4-4-4zm0 28H6V8h36v24z" ] [] ]
 {-|-}
 developer_board : Color -> Int -> Svg msg
-developer_board = icon "0 0 24 24" [ Svg.path [ d "M22 9V7h-2V5c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-2h2v-2h-2v-2h2v-2h-2V9h2zm-4 10H4V5h14v14zM6 13h5v4H6zm6-6h4v3h-4zM6 7h5v5H6zm6 4h4v6h-4z" ] [] ]
+developer_board = icon "0 0 48 48" [ Svg.path [ d "M44 18v-4h-4v-4c0-2.2-1.8-4-4-4H8c-2.2 0-4 1.8-4 4v28c0 2.2 1.8 4 4 4h28c2.2 0 4-1.8 4-4v-4h4v-4h-4v-4h4v-4h-4v-4h4zm-8 20H8V10h28v28zM12 26h10v8H12zm12-12h8v6h-8zm-12 0h10v10H12zm12 8h8v12h-8z" ] [] ]
 {-|-}
 device_hub : Color -> Int -> Svg msg
 device_hub = icon "0 0 24 24" [ Svg.path [ d "M17 16l-4-4V8.82C14.16 8.4 15 7.3 15 6c0-1.66-1.34-3-3-3S9 4.34 9 6c0 1.3.84 2.4 2 2.82V12l-4 4H3v5h5v-3.05l4-4.2 4 4.2V21h5v-5h-4z" ] [] ]
 {-|-}
 devices_other : Color -> Int -> Svg msg
-devices_other = icon "0 0 24 24" [ Svg.path [ d "M3 6h18V4H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h4v-2H3V6zm10 6H9v1.78c-.61.55-1 1.33-1 2.22s.39 1.67 1 2.22V20h4v-1.78c.61-.55 1-1.34 1-2.22s-.39-1.67-1-2.22V12zm-2 5.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zM22 8h-6c-.5 0-1 .5-1 1v10c0 .5.5 1 1 1h6c.5 0 1-.5 1-1V9c0-.5-.5-1-1-1zm-1 10h-4v-8h4v8z" ] [] ]
+devices_other = icon "0 0 48 48" [ Svg.path [ d "M6 12h36V8H6c-2.2 0-4 1.8-4 4v24c0 2.2 1.8 4 4 4h8v-4H6V12zm20 12h-8v3.56c-1.22 1.1-2 2.67-2 4.44s.78 3.34 2 4.44V40h8v-3.56c1.22-1.1 2-2.67 2-4.44s-.78-3.34-2-4.44V24zm-4 11c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3zm22-19H32c-1 0-2 1-2 2v20c0 1 1 2 2 2h12c1 0 2-1 2-2V18c0-1-1-2-2-2zm-2 20h-8V20h8v16z" ] [] ]
 {-|-}
 dock : Color -> Int -> Svg msg
-dock = icon "0 0 24 24" [ Svg.path [ d "M8 23h8v-2H8v2zm8-21.99L8 1c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V3c0-1.1-.9-1.99-2-1.99zM16 15H8V5h8v10z" ] [] ]
+dock = icon "0 0 48 48" [ Svg.path [ d "M16 46h16v-4H16v4zM32 2.02L16 2c-2.21 0-4 1.79-4 4v28c0 2.21 1.79 4 4 4h16c2.21 0 4-1.79 4-4V6c0-2.21-1.79-3.98-4-3.98zM32 30H16V10h16v20z" ] [] ]
 {-|-}
 gamepad : Color -> Int -> Svg msg
-gamepad = icon "0 0 24 24" [ Svg.path [ d "M15 7.5V2H9v5.5l3 3 3-3zM7.5 9H2v6h5.5l3-3-3-3zM9 16.5V22h6v-5.5l-3-3-3 3zM16.5 9l-3 3 3 3H22V9h-5.5z" ] [] ]
+gamepad = icon "0 0 48 48" [ Svg.path [ d "M30 15V4H18v11l6 6 6-6zm-15 3H4v12h11l6-6-6-6zm3 15v11h12V33l-6-6-6 6zm15-15l-6 6 6 6h11V18H33z" ] [] ]
 {-|-}
 headset : Color -> Int -> Svg msg
-headset = icon "0 0 24 24" [ Svg.path [ d "M12 1c-4.97 0-9 4.03-9 9v7c0 1.66 1.34 3 3 3h3v-8H5v-2c0-3.87 3.13-7 7-7s7 3.13 7 7v2h-4v8h3c1.66 0 3-1.34 3-3v-7c0-4.97-4.03-9-9-9z" ] [] ]
+headset = icon "0 0 48 48" [ Svg.path [ d "M24 2C14.06 2 6 10.06 6 20v14c0 3.31 2.69 6 6 6h6V24h-8v-4c0-7.73 6.27-14 14-14s14 6.27 14 14v4h-8v16h6c3.31 0 6-2.69 6-6V20c0-9.94-8.06-18-18-18z" ] [] ]
 {-|-}
 headset_mic : Color -> Int -> Svg msg
-headset_mic = icon "0 0 24 24" [ Svg.path [ d "M12 1c-4.97 0-9 4.03-9 9v7c0 1.66 1.34 3 3 3h3v-8H5v-2c0-3.87 3.13-7 7-7s7 3.13 7 7v2h-4v8h4v1h-7v2h6c1.66 0 3-1.34 3-3V10c0-4.97-4.03-9-9-9z" ] [] ]
+headset_mic = icon "0 0 48 48" [ Svg.path [ d "M24 2C14.06 2 6 10.06 6 20v14c0 3.31 2.69 6 6 6h6V24h-8v-4c0-7.73 6.27-14 14-14s14 6.27 14 14v4h-8v16h8v2H24v4h12c3.31 0 6-2.69 6-6V20c0-9.94-8.06-18-18-18z" ] [] ]
 {-|-}
 keyboard : Color -> Int -> Svg msg
-keyboard = icon "0 0 24 24" [ Svg.path [ d "M20 5H4c-1.1 0-1.99.9-1.99 2L2 17c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm-9 3h2v2h-2V8zm0 3h2v2h-2v-2zM8 8h2v2H8V8zm0 3h2v2H8v-2zm-1 2H5v-2h2v2zm0-3H5V8h2v2zm9 7H8v-2h8v2zm0-4h-2v-2h2v2zm0-3h-2V8h2v2zm3 3h-2v-2h2v2zm0-3h-2V8h2v2z" ] [] ]
-{-|-}
-keyboard_arrow_down : Color -> Int -> Svg msg
-keyboard_arrow_down = icon "0 0 24 24" [ Svg.path [ d "M7.41 7.84L12 12.42l4.59-4.58L18 9.25l-6 6-6-6z" ] [] ]
-{-|-}
-keyboard_arrow_left : Color -> Int -> Svg msg
-keyboard_arrow_left = icon "0 0 24 24" [ Svg.path [ d "M15.41 16.09l-4.58-4.59 4.58-4.59L14 5.5l-6 6 6 6z" ] [] ]
-{-|-}
-keyboard_arrow_right : Color -> Int -> Svg msg
-keyboard_arrow_right = icon "0 0 24 24" [ Svg.path [ d "M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z" ] [] ]
-{-|-}
-keyboard_arrow_up : Color -> Int -> Svg msg
-keyboard_arrow_up = icon "0 0 24 24" [ Svg.path [ d "M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z" ] [] ]
+keyboard = icon "0 0 48 48" [ Svg.path [ d "M40 10H8c-2.21 0-3.98 1.79-3.98 4L4 34c0 2.21 1.79 4 4 4h32c2.21 0 4-1.79 4-4V14c0-2.21-1.79-4-4-4zm-18 6h4v4h-4v-4zm0 6h4v4h-4v-4zm-6-6h4v4h-4v-4zm0 6h4v4h-4v-4zm-2 4h-4v-4h4v4zm0-6h-4v-4h4v4zm18 14H16v-4h16v4zm0-8h-4v-4h4v4zm0-6h-4v-4h4v4zm6 6h-4v-4h4v4zm0-6h-4v-4h4v4z" ] [] ]
 {-|-}
 keyboard_arrow_backspace : Color -> Int -> Svg msg
-keyboard_arrow_backspace = icon "0 0 24 24" [ Svg.path [ d "M21 11H6.83l3.58-3.59L9 6l-6 6 6 6 1.41-1.41L6.83 13H21z" ] [] ]
+keyboard_arrow_backspace = icon "0 0 48 48" [ Svg.path [ d "M42 22H13.66l7.17-7.17L18 12 6 24l12 12 2.83-2.83L13.66 26H42z" ] [] ]
 {-|-}
 keyboard_arrow_capslock : Color -> Int -> Svg msg
-keyboard_arrow_capslock = icon "0 0 24 24" [ Svg.path [ d "M12 8.41L16.59 13 18 11.59l-6-6-6 6L7.41 13 12 8.41zM6 18h12v-2H6v2z" ] [] ]
+keyboard_arrow_capslock = icon "0 0 48 48" [ Svg.path [ d "M24 16.83L33.17 26 36 23.17l-12-12-12 12L14.83 26 24 16.83zM12 36h24v-4H12v4z" ] [] ]
+{-|-}
+keyboard_arrow_down : Color -> Int -> Svg msg
+keyboard_arrow_down = icon "0 0 48 48" [ Svg.path [ d "M14.83 16.42L24 25.59l9.17-9.17L36 19.25l-12 12-12-12z" ] [] ]
 {-|-}
 keyboard_arrow_hide : Color -> Int -> Svg msg
-keyboard_arrow_hide = icon "0 0 24 24" [ Svg.path [ d "M20 3H4c-1.1 0-1.99.9-1.99 2L2 15c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-9 3h2v2h-2V6zm0 3h2v2h-2V9zM8 6h2v2H8V6zm0 3h2v2H8V9zm-1 2H5V9h2v2zm0-3H5V6h2v2zm9 7H8v-2h8v2zm0-4h-2V9h2v2zm0-3h-2V6h2v2zm3 3h-2V9h2v2zm0-3h-2V6h2v2zm-7 15l4-4H8l4 4z" ] [] ]
+keyboard_arrow_hide = icon "0 0 48 48" [ Svg.path [ d "M40 6H8c-2.21 0-3.98 1.79-3.98 4L4 30c0 2.21 1.79 4 4 4h32c2.21 0 4-1.79 4-4V10c0-2.21-1.79-4-4-4zm-18 6h4v4h-4v-4zm0 6h4v4h-4v-4zm-6-6h4v4h-4v-4zm0 6h4v4h-4v-4zm-2 4h-4v-4h4v4zm0-6h-4v-4h4v4zm18 14H16v-4h16v4zm0-8h-4v-4h4v4zm0-6h-4v-4h4v4zm6 6h-4v-4h4v4zm0-6h-4v-4h4v4zM24 46l8-8H16l8 8z" ] [] ]
+{-|-}
+keyboard_arrow_left : Color -> Int -> Svg msg
+keyboard_arrow_left = icon "0 0 48 48" [ Svg.path [ d "M30.83 32.67l-9.17-9.17 9.17-9.17L28 11.5l-12 12 12 12z" ] [] ]
 {-|-}
 keyboard_arrow_return : Color -> Int -> Svg msg
-keyboard_arrow_return = icon "0 0 24 24" [ Svg.path [ d "M19 7v4H5.83l3.58-3.59L8 6l-6 6 6 6 1.41-1.41L5.83 13H21V7z" ] [] ]
+keyboard_arrow_return = icon "0 0 48 48" [ Svg.path [ d "M38 14v8H11.66l7.17-7.17L16 12 4 24l12 12 2.83-2.83L11.66 26H42V14z" ] [] ]
+{-|-}
+keyboard_arrow_right : Color -> Int -> Svg msg
+keyboard_arrow_right = icon "0 0 48 48" [ Svg.path [ d "M17.17 32.92l9.17-9.17-9.17-9.17L20 11.75l12 12-12 12z" ] [] ]
+{-|-}
+keyboard_arrow_up : Color -> Int -> Svg msg
+keyboard_arrow_up = icon "0 0 48 48" [ Svg.path [ d "M14.83 30.83L24 21.66l9.17 9.17L36 28 24 16 12 28z" ] [] ]
 {-|-}
 keyboard_tab : Color -> Int -> Svg msg
-keyboard_tab = icon "0 0 24 24" [ Svg.path [ d "M11.59 7.41L15.17 11H1v2h14.17l-3.59 3.59L13 18l6-6-6-6-1.41 1.41zM20 6v12h2V6h-2z" ] [] ]
+keyboard_tab = icon "0 0 48 48" [ Svg.path [ d "M23.17 14.83L30.34 22H2v4h28.34l-7.17 7.17L26 36l12-12-12-12-2.83 2.83zM40 12v24h4V12h-4z" ] [] ]
 {-|-}
 keyboard_voice : Color -> Int -> Svg msg
-keyboard_voice = icon "0 0 24 24" [ Svg.path [ d "M12 15c1.66 0 2.99-1.34 2.99-3L15 6c0-1.66-1.34-3-3-3S9 4.34 9 6v6c0 1.66 1.34 3 3 3zm5.3-3c0 3-2.54 5.1-5.3 5.1S6.7 15 6.7 12H5c0 3.42 2.72 6.23 6 6.72V22h2v-3.28c3.28-.48 6-3.3 6-6.72h-1.7z" ] [] ]
+keyboard_voice = icon "0 0 48 48" [ Svg.path [ d "M24 30c3.31 0 5.98-2.69 5.98-6L30 12c0-3.32-2.68-6-6-6-3.31 0-6 2.68-6 6v12c0 3.31 2.69 6 6 6zm10.6-6c0 6-5.07 10.2-10.6 10.2-5.52 0-10.6-4.2-10.6-10.2H10c0 6.83 5.44 12.47 12 13.44V44h4v-6.56c6.56-.97 12-6.61 12-13.44h-3.4z" ] [] ]
 {-|-}
 laptop : Color -> Int -> Svg msg
-laptop = icon "0 0 24 24" [ Svg.path [ d "M20 18c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2H0v2h24v-2h-4zM4 6h16v10H4V6z" ] [] ]
+laptop = icon "0 0 48 48" [ Svg.path [ d "M40 36c2.2 0 4-1.8 4-4V12c0-2.2-1.8-4-4-4H8c-2.2 0-4 1.8-4 4v20c0 2.2 1.8 4 4 4H0v4h48v-4h-8zM8 12h32v20H8V12z" ] [] ]
 {-|-}
 laptop_chromebook : Color -> Int -> Svg msg
-laptop_chromebook = icon "0 0 24 24" [ Svg.path [ d "M22 18V3H2v15H0v2h24v-2h-2zm-8 0h-4v-1h4v1zm6-3H4V5h16v10z" ] [] ]
+laptop_chromebook = icon "0 0 48 48" [ Svg.path [ d "M44 36V6H4v30H0v4h48v-4h-4zm-16 0h-8v-2h8v2zm12-6H8V10h32v20z" ] [] ]
 {-|-}
 laptop_mac : Color -> Int -> Svg msg
-laptop_mac = icon "0 0 24 24" [ Svg.path [ d "M20 18c1.1 0 1.99-.9 1.99-2L22 5c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v11c0 1.1.9 2 2 2H0c0 1.1.9 2 2 2h20c1.1 0 2-.9 2-2h-4zM4 5h16v11H4V5zm8 14c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1z" ] [] ]
+laptop_mac = icon "0 0 48 48" [ Svg.path [ d "M40 36c2.21 0 3.98-1.79 3.98-4L44 10c0-2.21-1.79-4-4-4H8c-2.21 0-4 1.79-4 4v22c0 2.21 1.79 4 4 4H0c0 2.21 1.79 4 4 4h40c2.21 0 4-1.79 4-4h-8zM8 10h32v22H8V10zm16 28c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z" ] [] ]
 {-|-}
 laptop_windows : Color -> Int -> Svg msg
-laptop_windows = icon "0 0 24 24" [ Svg.path [ d "M20 18v-1c1.1 0 1.99-.9 1.99-2L22 5c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2v1H0v2h24v-2h-4zM4 5h16v10H4V5z" ] [] ]
+laptop_windows = icon "0 0 48 48" [ Svg.path [ d "M40 36v-2c2.21 0 3.98-1.79 3.98-4L44 10c0-2.21-1.79-4-4-4H8c-2.21 0-4 1.79-4 4v20c0 2.21 1.79 4 4 4v2H0v4h48v-4h-8zM8 10h32v20H8V10z" ] [] ]
 {-|-}
 memory : Color -> Int -> Svg msg
-memory = icon "0 0 24 24" [ Svg.path [ d "M15 9H9v6h6V9zm-2 4h-2v-2h2v2zm8-2V9h-2V7c0-1.1-.9-2-2-2h-2V3h-2v2h-2V3H9v2H7c-1.1 0-2 .9-2 2v2H3v2h2v2H3v2h2v2c0 1.1.9 2 2 2h2v2h2v-2h2v2h2v-2h2c1.1 0 2-.9 2-2v-2h2v-2h-2v-2h2zm-4 6H7V7h10v10z" ] [] ]
+memory = icon "0 0 48 48" [ Svg.path [ d "M30 18H18v12h12V18zm-4 8h-4v-4h4v4zm16-4v-4h-4v-4c0-2.21-1.79-4-4-4h-4V6h-4v4h-4V6h-4v4h-4c-2.21 0-4 1.79-4 4v4H6v4h4v4H6v4h4v4c0 2.21 1.79 4 4 4h4v4h4v-4h4v4h4v-4h4c2.21 0 4-1.79 4-4v-4h4v-4h-4v-4h4zm-8 12H14V14h20v20z" ] [] ]
 {-|-}
 mouse : Color -> Int -> Svg msg
-mouse = icon "0 0 24 24" [ Svg.path [ d "M13 1.07V9h7c0-4.08-3.05-7.44-7-7.93zM4 15c0 4.42 3.58 8 8 8s8-3.58 8-8v-4H4v4zm7-13.93C7.05 1.56 4 4.92 4 9h7V1.07z" ] [] ]
+mouse = icon "0 0 48 48" [ Svg.path [ d "M26 2.14V18h14c0-8.16-6.11-14.88-14-15.86zM8 30c0 8.84 7.16 16 16 16s16-7.16 16-16v-8H8v8zM22 2.14C14.11 3.12 8 9.84 8 18h14V2.14z" ] [] ]
 {-|-}
 phone_android : Color -> Int -> Svg msg
-phone_android = icon "0 0 24 24" [ Svg.path [ d "M16 1H8C6.34 1 5 2.34 5 4v16c0 1.66 1.34 3 3 3h8c1.66 0 3-1.34 3-3V4c0-1.66-1.34-3-3-3zm-2 20h-4v-1h4v1zm3.25-3H6.75V4h10.5v14z" ] [] ]
+phone_android = icon "0 0 48 48" [ Svg.path [ d "M32 2H16c-3.31 0-6 2.69-6 6v32c0 3.31 2.69 6 6 6h16c3.31 0 6-2.69 6-6V8c0-3.31-2.69-6-6-6zm-4 40h-8v-2h8v2zm6.5-6h-21V8h21v28z" ] [] ]
 {-|-}
 phone_iphone : Color -> Int -> Svg msg
-phone_iphone = icon "0 0 24 24" [ Svg.path [ d "M15.5 1h-8C6.12 1 5 2.12 5 3.5v17C5 21.88 6.12 23 7.5 23h8c1.38 0 2.5-1.12 2.5-2.5v-17C18 2.12 16.88 1 15.5 1zm-4 21c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm4.5-4H7V4h9v14z" ] [] ]
+phone_iphone = icon "0 0 48 48" [ Svg.path [ d "M31 2H15c-2.76 0-5 2.24-5 5v34c0 2.76 2.24 5 5 5h16c2.76 0 5-2.24 5-5V7c0-2.76-2.24-5-5-5zm-8 42c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3zm9-8H14V8h18v28z" ] [] ]
 {-|-}
 phonelink : Color -> Int -> Svg msg
-phonelink = icon "0 0 24 24" [ Svg.path [ d "M4 6h18V4H4c-1.1 0-2 .9-2 2v11H0v3h14v-3H4V6zm19 2h-6c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h6c.55 0 1-.45 1-1V9c0-.55-.45-1-1-1zm-1 9h-4v-7h4v7z" ] [] ]
+phonelink = icon "0 0 48 48" [ Svg.path [ d "M8 12h36V8H8c-2.21 0-4 1.79-4 4v22H0v6h28v-6H8V12zm38 4H34c-1.1 0-2 .9-2 2v20c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V18c0-1.1-.9-2-2-2zm-2 18h-8V20h8v14z" ] [] ]
 {-|-}
 phonelink_off : Color -> Int -> Svg msg
-phonelink_off = icon "0 0 24 24" [ Svg.path [ d "M22 6V4H6.82l2 2H22zM1.92 1.65L.65 2.92l1.82 1.82C2.18 5.08 2 5.52 2 6v11H0v3h17.73l2.35 2.35 1.27-1.27L3.89 3.62 1.92 1.65zM4 6.27L14.73 17H4V6.27zM23 8h-6c-.55 0-1 .45-1 1v4.18l2 2V10h4v7h-2.18l3 3H23c.55 0 1-.45 1-1V9c0-.55-.45-1-1-1z" ] [] ]
+phonelink_off = icon "0 0 48 48" [ Svg.path [ d "M44 12V8H13.64l4 4H44zM3.84 3.29L1.29 5.84l3.63 3.63C4.36 10.16 4 11.04 4 12v22H0v6h35.46l4.71 4.71 2.54-2.55L7.79 7.24 3.84 3.29zM8 12.55L29.46 34H8V12.55zM46 16H34c-1.1 0-2 .9-2 2v8.36l4 4V20h8v14h-4.36l6 6H46c1.1 0 2-.9 2-2V18c0-1.1-.9-2-2-2z" ] [] ]
 {-|-}
 power_input : Color -> Int -> Svg msg
-power_input = icon "0 0 24 24" [ Svg.path [ d "M2 9v2h19V9H2zm0 6h5v-2H2v2zm7 0h5v-2H9v2zm7 0h5v-2h-5v2z" ] [] ]
+power_input = icon "0 0 48 48" [ Svg.path [ d "M5 18v4h38v-4H5zm0 12h10v-4H5v4zm14 0h10v-4H19v4zm14 0h10v-4H33v4z" ] [] ]
 {-|-}
 router : Color -> Int -> Svg msg
-router = icon "0 0 24 24" [ Svg.path [ d "M20.2 5.9l.8-.8C19.6 3.7 17.8 3 16 3s-3.6.7-5 2.1l.8.8C13 4.8 14.5 4.2 16 4.2s3 .6 4.2 1.7zm-.9.8c-.9-.9-2.1-1.4-3.3-1.4s-2.4.5-3.3 1.4l.8.8c.7-.7 1.6-1 2.5-1 .9 0 1.8.3 2.5 1l.8-.8zM19 13h-2V9h-2v4H5c-1.1 0-2 .9-2 2v4c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-4c0-1.1-.9-2-2-2zM8 18H6v-2h2v2zm3.5 0h-2v-2h2v2zm3.5 0h-2v-2h2v2z" ] [] ]
+router = icon "0 0 48 48" [ Svg.path [ d "M40.33 11.81L42 10.13C39.24 7.38 35.62 6 32 6s-7.24 1.39-10 4.13l1.66 1.66C25.97 9.5 28.98 8.35 32 8.35s6.03 1.16 8.33 3.46zm-1.66 1.52c-1.84-1.84-4.25-2.76-6.67-2.76s-4.83.92-6.67 2.76l1.66 1.66c1.39-1.37 3.19-2.06 5.01-2.06 1.81 0 3.62.69 4.99 2.07l1.68-1.67zM38 26h-4v-8h-4v8H10c-2.21 0-4 1.79-4 4v8c0 2.21 1.79 4 4 4h28c2.21 0 4-1.79 4-4v-8c0-2.21-1.79-4-4-4zM16 36h-4v-4h4v4zm7 0h-4v-4h4v4zm7 0h-4v-4h4v4z" ] [] ]
 {-|-}
 scanner : Color -> Int -> Svg msg
-scanner = icon "0 0 24 24" [ Svg.path [ d "M19.8 10.7L4.2 5l-.7 1.9L17.6 12H5c-1.1 0-2 .9-2 2v4c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-5.5c0-.8-.5-1.6-1.2-1.8zM7 17H5v-2h2v2zm12 0H9v-2h10v2z" ] [] ]
+scanner = icon "0 0 48 48" [ Svg.path [ d "M16 34h22v4H16z" ] [] ]
 {-|-}
 security : Color -> Int -> Svg msg
-security = icon "0 0 24 24" [ Svg.path [ d "M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z" ] [] ]
+security = icon "0 0 48 48" [ Svg.path [ d "M24 2L6 10v12c0 11.11 7.67 21.47 18 24 10.33-2.53 18-12.89 18-24V10L24 2zm0 21.98h14c-1.06 8.24-6.55 15.58-14 17.87V24H10V12.6l14-6.22v17.6z" ] [] ]
 {-|-}
 sim_card : Color -> Int -> Svg msg
-sim_card = icon "0 0 24 24" [ Svg.path [ d "M19.99 4c0-1.1-.89-2-1.99-2h-8L4 8v12c0 1.1.9 2 2 2h12.01c1.1 0 1.99-.9 1.99-2l-.01-16zM9 19H7v-2h2v2zm8 0h-2v-2h2v2zm-8-4H7v-4h2v4zm4 4h-2v-4h2v4zm0-6h-2v-2h2v2zm4 2h-2v-4h2v4z" ] [] ]
+sim_card = icon "0 0 48 48" [ Svg.path [ d "M39.98 8c0-2.21-1.77-4-3.98-4H20L8 16v24c0 2.21 1.79 4 4 4h24.02c2.21 0 3.98-1.79 3.98-4l-.02-32zM18 38h-4v-4h4v4zm16 0h-4v-4h4v4zm-16-8h-4v-8h4v8zm8 8h-4v-8h4v8zm0-12h-4v-4h4v4zm8 4h-4v-8h4v8z" ] [] ]
 {-|-}
 smartphone : Color -> Int -> Svg msg
-smartphone = icon "0 0 24 24" [ Svg.path [ d "M17 1.01L7 1c-1.1 0-2 .9-2 2v18c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V3c0-1.1-.9-1.99-2-1.99zM17 19H7V5h10v14z" ] [] ]
+smartphone = icon "0 0 48 48" [ Svg.path [ d "M34 2.02L14 2c-2.21 0-4 1.79-4 4v36c0 2.21 1.79 4 4 4h20c2.21 0 4-1.79 4-4V6c0-2.21-1.79-3.98-4-3.98zM34 38H14V10h20v28z" ] [] ]
 {-|-}
 speaker : Color -> Int -> Svg msg
-speaker = icon "0 0 24 24" [ Svg.path [ d "M17 2H7c-1.1 0-2 .9-2 2v16c0 1.1.9 1.99 2 1.99L17 22c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-5 2c1.1 0 2 .9 2 2s-.9 2-2 2c-1.11 0-2-.9-2-2s.89-2 2-2zm0 16c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z" ] [] ]
+speaker = icon "0 0 48 48" [ Svg.path [ d "M34 4H14c-2.21 0-4 1.79-4 4v32c0 2.21 1.79 3.98 4 3.98L34 44c2.21 0 4-1.79 4-4V8c0-2.21-1.79-4-4-4zM24 8c2.21 0 4 1.79 4 4s-1.79 4-4 4-4-1.79-4-4 1.79-4 4-4zm0 32c-5.52 0-10-4.48-10-10s4.48-10 10-10 10 4.48 10 10-4.48 10-10 10zm0-16c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6z" ] [] ]
 {-|-}
 speaker_group : Color -> Int -> Svg msg
-speaker_group = icon "0 0 24 24" [ Svg.path [ d "M18.2 1H9.8C8.81 1 8 1.81 8 2.8v14.4c0 .99.81 1.79 1.8 1.79l8.4.01c.99 0 1.8-.81 1.8-1.8V2.8c0-.99-.81-1.8-1.8-1.8zM14 3c1.1 0 2 .89 2 2s-.9 2-2 2-2-.89-2-2 .9-2 2-2zm0 13.5c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4z" ] [], Svg.circle [ cx "14", cy "12.5", r "2.5" ] [] ]
+speaker_group = icon "0 0 48 48" [ Svg.path [ d "M36.4 2H19.6C17.61 2 16 3.61 16 5.6v28.8c0 1.99 1.61 3.58 3.6 3.58l16.8.02c1.99 0 3.6-1.61 3.6-3.6V5.6C40 3.61 38.39 2 36.4 2zM28 6c2.21 0 4 1.79 4 4s-1.79 4-4 4-4-1.79-4-4 1.79-4 4-4zm0 27c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm0-13c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zM12 10H8v32c0 2.21 1.79 4 4 4h20v-4H12V10z" ] [] ]
 {-|-}
 tablet : Color -> Int -> Svg msg
-tablet = icon "0 0 24 24" [ Svg.path [ d "M21 4H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h18c1.1 0 1.99-.9 1.99-2L23 6c0-1.1-.9-2-2-2zm-2 14H5V6h14v12z" ] [] ]
+tablet = icon "0 0 48 48" [ Svg.path [ d "M42 8H6c-2.21 0-4 1.79-4 4v24c0 2.21 1.79 4 4 4h36c2.21 0 3.98-1.79 3.98-4L46 12c0-2.21-1.79-4-4-4zm-4 28H10V12h28v24z" ] [] ]
 {-|-}
 tablet_android : Color -> Int -> Svg msg
-tablet_android = icon "0 0 24 24" [ Svg.path [ d "M18 0H6C4.34 0 3 1.34 3 3v18c0 1.66 1.34 3 3 3h12c1.66 0 3-1.34 3-3V3c0-1.66-1.34-3-3-3zm-4 22h-4v-1h4v1zm5.25-3H4.75V3h14.5v16z" ] [] ]
+tablet_android = icon "0 0 48 48" [ Svg.path [ d "M36 0H12C8.68 0 6 2.68 6 6v36c0 3.32 2.68 6 6 6h24c3.32 0 6-2.68 6-6V6c0-3.32-2.68-6-6-6zm-8 44h-8v-2h8v2zm10.5-6h-29V6h29v32z" ] [] ]
 {-|-}
 tablet_mac : Color -> Int -> Svg msg
-tablet_mac = icon "0 0 24 24" [ Svg.path [ d "M18.5 0h-14C3.12 0 2 1.12 2 2.5v19C2 22.88 3.12 24 4.5 24h14c1.38 0 2.5-1.12 2.5-2.5v-19C21 1.12 19.88 0 18.5 0zm-7 23c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm7.5-4H4V3h15v16z" ] [] ]
+tablet_mac = icon "0 0 48 48" [ Svg.path [ d "M37 0H9C6.24 0 4 2.24 4 5v38c0 2.76 2.24 5 5 5h28c2.76 0 5-2.24 5-5V5c0-2.76-2.24-5-5-5zM23 46c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3zm15-8H8V6h30v32z" ] [] ]
 {-|-}
 toys : Color -> Int -> Svg msg
-toys = icon "0 0 24 24" [ Svg.path [ d "M12 12c0-3 2.5-5.5 5.5-5.5S23 9 23 12H12zm0 0c0 3-2.5 5.5-5.5 5.5S1 15 1 12h11zm0 0c-3 0-5.5-2.5-5.5-5.5S9 1 12 1v11zm0 0c3 0 5.5 2.5 5.5 5.5S15 23 12 23V12z" ] [] ]
+toys = icon "0 0 48 48" [ Svg.path [ d "M24 24c0-6.1 4.9-11 11-11s11 4.9 11 11H24zm0 0c0 6.1-4.9 11-11 11S2 30.1 2 24h22zm0 0c-6.1 0-11-4.9-11-11S17.9 2 24 2v22zm0 0c6.1 0 11 4.9 11 11s-4.9 11-11 11V24z" ] [] ]
 {-|-}
 tv : Color -> Int -> Svg msg
-tv = icon "0 0 24 24" [ Svg.path [ d "M21 3H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h5v2h8v-2h5c1.1 0 1.99-.9 1.99-2L23 5c0-1.1-.9-2-2-2zm0 14H3V5h18v12z" ] [] ]
+tv = icon "0 0 48 48" [ Svg.path [ d "M42 6H6c-2.21 0-4 1.79-4 4v24c0 2.21 1.79 4 4 4h10v4h16v-4h10c2.21 0 3.98-1.79 3.98-4L46 10c0-2.21-1.79-4-4-4zm0 28H6V10h36v24z" ] [] ]
 {-|-}
 videogame_asset : Color -> Int -> Svg msg
-videogame_asset = icon "0 0 24 24" [ Svg.path [ d "M21 6H3c-1.1 0-2 .9-2 2v8c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-10 7H8v3H6v-3H3v-2h3V8h2v3h3v2zm4.5 2c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm4-3c-.83 0-1.5-.67-1.5-1.5S18.67 9 19.5 9s1.5.67 1.5 1.5-.67 1.5-1.5 1.5z" ] [] ]
+videogame_asset = icon "0 0 48 48" [ Svg.path [ d "M42 12H6c-2.21 0-4 1.79-4 4v16c0 2.21 1.79 4 4 4h36c2.21 0 4-1.79 4-4V16c0-2.21-1.79-4-4-4zM22 26h-6v6h-4v-6H6v-4h6v-6h4v6h6v4zm9 4c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3zm8-6c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3z" ] [] ]
 {-|-}
 watch : Color -> Int -> Svg msg
-watch = icon "0 0 24 24" [ Svg.path [ d "M20 12c0-2.54-1.19-4.81-3.04-6.27L16 0H8l-.95 5.73C5.19 7.19 4 9.45 4 12s1.19 4.81 3.05 6.27L8 24h8l.96-5.73C18.81 16.81 20 14.54 20 12zM6 12c0-3.31 2.69-6 6-6s6 2.69 6 6-2.69 6-6 6-6-2.69-6-6z" ] [] ]
+watch = icon "0 0 48 48" [ Svg.path [ d "M40 24c0-5.09-2.38-9.62-6.09-12.55L32 0H16l-1.91 11.45C10.38 14.38 8 18.91 8 24s2.38 9.62 6.09 12.55L16 48h16l1.91-11.45C37.62 33.62 40 29.09 40 24zm-28 0c0-6.63 5.37-12 12-12s12 5.37 12 12-5.37 12-12 12-12-5.37-12-12z" ] [] ]

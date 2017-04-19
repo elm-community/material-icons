@@ -80,205 +80,205 @@ import Material.Icons.Internal exposing (icon)
 
 {-|-}
 attach_file : Color -> Int -> Svg msg
-attach_file = icon "0 0 18 18" [ Svg.path [ d "M13 14c0 2.21-1.79 4-4 4s-4-1.79-4-4V3c0-1.66 1.34-3 3-3s3 1.34 3 3v9c0 1.1-.9 2-2 2s-2-.9-2-2V4h1v8c0 .55.45 1 1 1s1-.45 1-1V3c0-1.1-.9-2-2-2s-2 .9-2 2v11c0 1.66 1.34 3 3 3s3-1.34 3-3V4h1v10z" ] [] ]
+attach_file = icon "0 0 48 48" [ Svg.path [ d "M33 12v23c0 4.42-3.58 8-8 8s-8-3.58-8-8V10c0-2.76 2.24-5 5-5s5 2.24 5 5v21c0 1.1-.89 2-2 2-1.11 0-2-.9-2-2V12h-3v19c0 2.76 2.24 5 5 5s5-2.24 5-5V10c0-4.42-3.58-8-8-8s-8 3.58-8 8v25c0 6.08 4.93 11 11 11s11-4.92 11-11V12h-3z" ] [] ]
 {-|-}
 attach_money : Color -> Int -> Svg msg
-attach_money = icon "0 0 18 18" [ Svg.path [ d "M9.56 8.1c-1.6-.51-2.66-.71-2.66-1.88 0-.83.72-1.62 2.1-1.62 1.59 0 2.1.88 2.1 1.94H13c0-1.79-1.17-3.09-3-3.44V1H8v2.11c-1.58.32-3 1.37-3 3.12 0 2.25 1.78 2.8 4 3.52 1.88.61 2.25 1.04 2.25 2.09 0 .9-.67 1.56-2.25 1.56-1.2 0-2.25-.84-2.25-2.06h-2c0 1.88 1.38 3.2 3.25 3.56V17h2v-2.07c2.04-.29 3.2-1.49 3.2-3.1 0-1.87-.94-2.87-3.64-3.73z" ] [] ]
+attach_money = icon "0 0 48 48" [ Svg.path [ d "M23.6 21.8c-4.54-1.18-6-2.39-6-4.29 0-2.18 2.01-3.71 5.4-3.71 3.56 0 4.88 1.7 5 4.2h4.42c-.13-3.45-2.24-6.59-6.42-7.62V6h-6v4.32c-3.88.85-7 3.35-7 7.22 0 4.62 3.83 6.92 9.4 8.26 5.01 1.2 6 2.95 6 4.83 0 1.37-.97 3.57-5.4 3.57-4.12 0-5.75-1.85-5.96-4.2h-4.41c.25 4.38 3.52 6.83 7.37 7.66V42h6v-4.3c3.89-.75 7-3 7-7.11 0-5.66-4.86-7.6-9.4-8.79z" ] [] ]
 {-|-}
 border_all : Color -> Int -> Svg msg
-border_all = icon "0 0 18 18" [ Svg.path [ d "M2 2v14h14V2H2zm6 12H4v-4h4v4zm0-6H4V4h4v4zm6 6h-4v-4h4v4zm0-6h-4V4h4v4z" ] [] ]
+border_all = icon "0 0 48 48" [ Svg.path [ d "M6 6v36h36V6H6zm16 32H10V26h12v12zm0-16H10V10h12v12zm16 16H26V26h12v12zm0-16H26V10h12v12z" ] [] ]
 {-|-}
 border_bottom : Color -> Int -> Svg msg
-border_bottom = icon "0 0 18 18" [ Svg.path [ d "M7 2H5v2h2V2zm3 6H8v2h2V8zm0 3H8v2h2v-2zm3-3h-2v2h2V8zM7 8H5v2h2V8zm6-6h-2v2h2V2zm-3 3H8v2h2V5zm0-3H8v2h2V2zm-6 9H2v2h2v-2zm10 2h2v-2h-2v2zm0-6h2V5h-2v2zm0 3h2V8h-2v2zm0-8v2h2V2h-2zM4 2H2v2h2V2zM2 16h14v-2H2v2zM4 5H2v2h2V5zm0 3H2v2h2V8z" ] [] ]
+border_bottom = icon "0 0 48 48" [ Svg.path [ d "M18 22h-4v4h4v-4zm8 8h-4v4h4v-4zM18 6h-4v4h4V6zm8 16h-4v4h4v-4zM10 6H6v4h4V6zm16 8h-4v4h4v-4zm8 8h-4v4h4v-4zM26 6h-4v4h4V6zm8 0h-4v4h4V6zm4 20h4v-4h-4v4zm0 8h4v-4h-4v4zM10 14H6v4h4v-4zm28-8v4h4V6h-4zm0 12h4v-4h-4v4zm-28 4H6v4h4v-4zM6 42h36v-4H6v4zm4-12H6v4h4v-4z" ] [] ]
 {-|-}
 border_clear : Color -> Int -> Svg msg
-border_clear = icon "0 0 18 18" [ Svg.path [ d "M8 16h2v-2H8v2zm-3-6h2V8H5v2zm0-6h2V2H5v2zm3 9h2v-2H8v2zm-3 3h2v-2H5v2zM2 7h2V5H2v2zm0 9h2v-2H2v2zM2 4h2V2H2v2zm0 6h2V8H2v2zm6 0h2V8H8v2zm-6 3h2v-2H2v2zm12 0h2v-2h-2v2zm0 3h2v-2h-2v2zm0-6h2V8h-2v2zm0-3h2V5h-2v2zm0-5v2h2V2h-2zM8 4h2V2H8v2zm3 0h2V2h-2v2zM8 7h2V5H8v2zm3 9h2v-2h-2v2zm0-6h2V8h-2v2z" ] [] ]
+border_clear = icon "0 0 48 48" [ Svg.path [ d "M14 10h4V6h-4v4zm0 16h4v-4h-4v4zm0 16h4v-4h-4v4zm8-8h4v-4h-4v4zm0 8h4v-4h-4v4zM6 42h4v-4H6v4zm0-8h4v-4H6v4zm0-8h4v-4H6v4zm0-8h4v-4H6v4zm0-8h4V6H6v4zm16 16h4v-4h-4v4zm16 8h4v-4h-4v4zm0-8h4v-4h-4v4zm0 16h4v-4h-4v4zm0-24h4v-4h-4v4zm-16 0h4v-4h-4v4zM38 6v4h4V6h-4zm-16 4h4V6h-4v4zm8 32h4v-4h-4v4zm0-16h4v-4h-4v4zm0-16h4V6h-4v4z" ] [] ]
 {-|-}
 border_color : Color -> Int -> Svg msg
-border_color = icon "0 0 18 18" [ Svg.path [ d "M0 15h18v3H0z", fillOpacity ".36" ] [] ]
+border_color = icon "0 0 48 48" [ Svg.path [ d "M35.5 14L28 6.5l-20 20V34h7.5l20-20zm5.91-5.91c.78-.78.78-2.05 0-2.83L36.74.59c-.78-.78-2.05-.78-2.83 0L30 4.5l7.5 7.5 3.91-3.91z" ] [] ]
 {-|-}
 border_horizontal : Color -> Int -> Svg msg
-border_horizontal = icon "0 0 18 18" [ Svg.path [ d "M8 16h2v-2H8v2zM5 4h2V2H5v2zm3 9h2v-2H8v2zm-3 3h2v-2H5v2zM2 7h2V5H2v2zm0 9h2v-2H2v2zM2 4h2V2H2v2zm0 6h14V8H2v2zm0 3h2v-2H2v2zm12 0h2v-2h-2v2zm0 3h2v-2h-2v2zm0-9h2V5h-2v2zm0-5v2h2V2h-2zM8 4h2V2H8v2zm3 0h2V2h-2v2zM8 7h2V5H8v2zm3 9h2v-2h-2v2z" ] [] ]
+border_horizontal = icon "0 0 48 48" [ Svg.path [ d "M6 42h4v-4H6v4zm4-28H6v4h4v-4zM6 34h4v-4H6v4zm8 8h4v-4h-4v4zM10 6H6v4h4V6zm8 0h-4v4h4V6zm16 0h-4v4h4V6zm-8 8h-4v4h4v-4zm0-8h-4v4h4V6zm12 28h4v-4h-4v4zm-16 8h4v-4h-4v4zM6 26h36v-4H6v4zM38 6v4h4V6h-4zm0 12h4v-4h-4v4zM22 34h4v-4h-4v4zm8 8h4v-4h-4v4zm8 0h4v-4h-4v4z" ] [] ]
 {-|-}
 border_inner : Color -> Int -> Svg msg
-border_inner = icon "0 0 18 18" [ Svg.path [ d "M2 16h2v-2H2v2zM4 5H2v2h2V5zm1 11h2v-2H5v2zm8-14h-2v2h2V2zM4 2H2v2h2V2zm3 0H5v2h2V2zM2 13h2v-2H2v2zm9 3h2v-2h-2v2zM10 2H8v6H2v2h6v6h2v-6h6V8h-6V2zm4 0v2h2V2h-2zm0 5h2V5h-2v2zm0 9h2v-2h-2v2zm0-3h2v-2h-2v2z" ] [] ]
+border_inner = icon "0 0 48 48" [ Svg.path [ d "M6 42h4v-4H6v4zm8 0h4v-4h-4v4zm-4-28H6v4h4v-4zM6 34h4v-4H6v4zM18 6h-4v4h4V6zm-8 0H6v4h4V6zm24 0h-4v4h4V6zm4 12h4v-4h-4v4zm0-12v4h4V6h-4zm-8 36h4v-4h-4v4zM26 6h-4v16H6v4h16v16h4V26h16v-4H26V6zm12 36h4v-4h-4v4zm0-8h4v-4h-4v4z" ] [] ]
 {-|-}
 border_left : Color -> Int -> Svg msg
-border_left = icon "0 0 18 18" [ Svg.path [ d "M8 10h2V8H8v2zm0-3h2V5H8v2zm0 6h2v-2H8v2zm0 3h2v-2H8v2zm-6 0h2V2H2v14zm3 0h2v-2H5v2zM5 4h2V2H5v2zm0 6h2V8H5v2zm9 6h2v-2h-2v2zm0-6h2V8h-2v2zm0 3h2v-2h-2v2zm0-6h2V5h-2v2zM8 4h2V2H8v2zm6-2v2h2V2h-2zm-3 14h2v-2h-2v2zm0-6h2V8h-2v2zm0-6h2V2h-2v2z" ] [] ]
+border_left = icon "0 0 48 48" [ Svg.path [ d "M22 42h4v-4h-4v4zm0-8h4v-4h-4v4zm0-24h4V6h-4v4zm0 8h4v-4h-4v4zm0 8h4v-4h-4v4zm-8 16h4v-4h-4v4zm0-32h4V6h-4v4zm0 16h4v-4h-4v4zM6 42h4V6H6v36zm32-24h4v-4h-4v4zm-8 24h4v-4h-4v4zm8-8h4v-4h-4v4zm0-28v4h4V6h-4zm0 20h4v-4h-4v4zm0 16h4v-4h-4v4zm-8-16h4v-4h-4v4zm0-16h4V6h-4v4z" ] [] ]
 {-|-}
 border_outer : Color -> Int -> Svg msg
-border_outer = icon "0 0 18 18" [ Svg.path [ d "M10 5H8v2h2V5zm3 3h-2v2h2V8zm-3 0H8v2h2V8zm0 3H8v2h2v-2zM7 8H5v2h2V8zM2 2v14h14V2H2zm12 12H4V4h10v10z" ] [] ]
+border_outer = icon "0 0 48 48" [ Svg.path [ d "M26 14h-4v4h4v-4zm0 8h-4v4h4v-4zm8 0h-4v4h4v-4zM6 6v36h36V6H6zm32 32H10V10h28v28zm-12-8h-4v4h4v-4zm-8-8h-4v4h4v-4z" ] [] ]
 {-|-}
 border_right : Color -> Int -> Svg msg
-border_right = icon "0 0 18 18" [ Svg.path [ d "M2 4h2V2H2v2zm3 0h2V2H5v2zm0 6h2V8H5v2zm0 6h2v-2H5v2zM2 7h2V5H2v2zm0 3h2V8H2v2zm0 6h2v-2H2v2zm0-3h2v-2H2v2zm9-3h2V8h-2v2zm-3 6h2v-2H8v2zm3 0h2v-2h-2v2zm3-14v14h2V2h-2zM8 4h2V2H8v2zm3 0h2V2h-2v2zm-3 9h2v-2H8v2zm0-6h2V5H8v2zm0 3h2V8H8v2z" ] [] ]
+border_right = icon "0 0 48 48" [ Svg.path [ d "M14 42h4v-4h-4v4zM6 10h4V6H6v4zm8 0h4V6h-4v4zm0 16h4v-4h-4v4zM6 42h4v-4H6v4zm16 0h4v-4h-4v4zM6 26h4v-4H6v4zm0 8h4v-4H6v4zm0-16h4v-4H6v4zm16 16h4v-4h-4v4zm8-8h4v-4h-4v4zm8-20v36h4V6h-4zm-8 36h4v-4h-4v4zm0-32h4V6h-4v4zm-8 16h4v-4h-4v4zm0-16h4V6h-4v4zm0 8h4v-4h-4v4z" ] [] ]
 {-|-}
 border_style : Color -> Int -> Svg msg
-border_style = icon "0 0 18 18" [ Svg.path [ d "M11 16h2v-2h-2v2zm3 0h2v-2h-2v2zm-9 0h2v-2H5v2zm3 0h2v-2H8v2zm6-3h2v-2h-2v2zm0-3h2V8h-2v2zM2 2v14h2V4h12V2H2zm12 5h2V5h-2v2z" ] [] ]
+border_style = icon "0 0 48 48" [ Svg.path [ d "M30 42h4v-4h-4v4zm8 0h4v-4h-4v4zm-24 0h4v-4h-4v4zm8 0h4v-4h-4v4zm16-8h4v-4h-4v4zm0-8h4v-4h-4v4zM6 6v36h4V10h32V6H6zm32 12h4v-4h-4v4z" ] [] ]
 {-|-}
 border_top : Color -> Int -> Svg msg
-border_top = icon "0 0 18 18" [ Svg.path [ d "M5 10h2V8H5v2zm-3 6h2v-2H2v2zm6 0h2v-2H8v2zm0-3h2v-2H8v2zm-3 3h2v-2H5v2zm-3-3h2v-2H2v2zm6-3h2V8H8v2zM2 7h2V5H2v2zm0 3h2V8H2v2zm12 0h2V8h-2v2zm0 3h2v-2h-2v2zm0-6h2V5h-2v2zM2 2v2h14V2H2zm6 5h2V5H8v2zm3 9h2v-2h-2v2zm0-6h2V8h-2v2zm3 6h2v-2h-2v2z" ] [] ]
+border_top = icon "0 0 48 48" [ Svg.path [ d "M14 42h4v-4h-4v4zm0-16h4v-4h-4v4zm8 0h4v-4h-4v4zm0 16h4v-4h-4v4zM6 34h4v-4H6v4zm0 8h4v-4H6v4zm0-16h4v-4H6v4zm0-8h4v-4H6v4zm16 16h4v-4h-4v4zm16-16h4v-4h-4v4zm0 8h4v-4h-4v4zM6 6v4h36V6H6zm32 28h4v-4h-4v4zm-8 8h4v-4h-4v4zm-8-24h4v-4h-4v4zm16 24h4v-4h-4v4zm-8-16h4v-4h-4v4z" ] [] ]
 {-|-}
 border_vertical : Color -> Int -> Svg msg
-border_vertical = icon "0 0 18 18" [ Svg.path [ d "M5 16h2v-2H5v2zM2 7h2V5H2v2zm0-3h2V2H2v2zm3 6h2V8H5v2zm0-6h2V2H5v2zM2 16h2v-2H2v2zm0-6h2V8H2v2zm0 3h2v-2H2v2zM14 2v2h2V2h-2zm0 8h2V8h-2v2zm-6 6h2V2H8v14zm6 0h2v-2h-2v2zm0-9h2V5h-2v2zm0 6h2v-2h-2v2zm-3 3h2v-2h-2v2zm0-6h2V8h-2v2zm0-6h2V2h-2v2z" ] [] ]
+border_vertical = icon "0 0 48 48" [ Svg.path [ d "M6 18h4v-4H6v4zm0-8h4V6H6v4zm8 32h4v-4h-4v4zm0-16h4v-4h-4v4zm-8 0h4v-4H6v4zm0 16h4v-4H6v4zm0-8h4v-4H6v4zm8-24h4V6h-4v4zm24 24h4v-4h-4v4zm-16 8h4V6h-4v36zm16 0h4v-4h-4v4zm0-16h4v-4h-4v4zm0-20v4h4V6h-4zm0 12h4v-4h-4v4zm-8-8h4V6h-4v4zm0 32h4v-4h-4v4zm0-16h4v-4h-4v4z" ] [] ]
 {-|-}
 bubble_chart : Color -> Int -> Svg msg
-bubble_chart = icon "0 0 24 24" [ Svg.circle [ cx "7.2", cy "14.4", r "3.2" ] [] ]
+bubble_chart = icon "0 0 48 48" [ Svg.circle [ cx "14.4", cy "28.8", r "6.4" ] [] ]
 {-|-}
 drag_handle : Color -> Int -> Svg msg
-drag_handle = icon "0 0 24 24" [ Svg.path [ d "M20 9H4v2h16V9zM4 15h16v-2H4v2z" ] [] ]
+drag_handle = icon "0 0 48 48" [ Svg.path [ d "M40 18H8v4h32v-4zM8 30h32v-4H8v4z" ] [] ]
 {-|-}
 format_align_center : Color -> Int -> Svg msg
-format_align_center = icon "0 0 18 18" [ Svg.path [ d "M4 14v2h10v-2H4zm0-8v2h10V6H4zm-2 6h14v-2H2v2zM2 2v2h14V2H2z" ] [] ]
+format_align_center = icon "0 0 48 48" [ Svg.path [ d "M14 30v4h20v-4H14zM6 42h36v-4H6v4zm0-16h36v-4H6v4zm8-12v4h20v-4H14zM6 6v4h36V6H6z" ] [] ]
 {-|-}
 format_align_justify : Color -> Int -> Svg msg
-format_align_justify = icon "0 0 18 18" [ Svg.path [ d "M2 16h14v-2H2v2zm0-4h14v-2H2v2zM2 2v2h14V2H2zm0 6h14V6H2v2z" ] [] ]
+format_align_justify = icon "0 0 48 48" [ Svg.path [ d "M6 42h36v-4H6v4zm0-8h36v-4H6v4zm0-8h36v-4H6v4zm0-8h36v-4H6v4zM6 6v4h36V6H6z" ] [] ]
 {-|-}
 format_align_left : Color -> Int -> Svg msg
-format_align_left = icon "0 0 18 18" [ Svg.path [ d "M2 16h10v-2H2v2zM12 6H2v2h10V6zM2 2v2h14V2H2zm0 10h14v-2H2v2z" ] [] ]
+format_align_left = icon "0 0 48 48" [ Svg.path [ d "M30 30H6v4h24v-4zm0-16H6v4h24v-4zM6 26h36v-4H6v4zm0 16h36v-4H6v4zM6 6v4h36V6H6z" ] [] ]
 {-|-}
 format_align_right : Color -> Int -> Svg msg
-format_align_right = icon "0 0 18 18" [ Svg.path [ d "M6 16h10v-2H6v2zm-4-4h14v-2H2v2zM2 2v2h14V2H2zm4 6h10V6H6v2z" ] [] ]
+format_align_right = icon "0 0 48 48" [ Svg.path [ d "M6 42h36v-4H6v4zm12-8h24v-4H18v4zM6 26h36v-4H6v4zm12-8h24v-4H18v4zM6 6v4h36V6H6z" ] [] ]
 {-|-}
 format_bold : Color -> Int -> Svg msg
-format_bold = icon "0 0 18 18" [ Svg.path [ d "M11.63 7.82C12.46 7.24 13 6.38 13 5.5 13 3.57 11.43 2 9.5 2H4v12h6.25c1.79 0 3.25-1.46 3.25-3.25 0-1.3-.77-2.41-1.87-2.93zM6.5 4h2.75c.83 0 1.5.67 1.5 1.5S10.08 7 9.25 7H6.5V4zm3.25 8H6.5V9h3.25c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5z" ] [] ]
+format_bold = icon "0 0 48 48" [ Svg.path [ d "M31.2 21.58c1.93-1.35 3.3-3.53 3.3-5.58 0-4.51-3.49-8-8-8H14v28h14.08c4.19 0 7.42-3.4 7.42-7.58 0-3.04-1.73-5.63-4.3-6.84zM20 13h6c1.66 0 3 1.34 3 3s-1.34 3-3 3h-6v-6zm7 18h-7v-6h7c1.66 0 3 1.34 3 3s-1.34 3-3 3z" ] [] ]
 {-|-}
 format_clear : Color -> Int -> Svg msg
-format_clear = icon "0 0 18 18" [ Svg.path [ d "M2.27 4.55L7.43 9.7 5 15h2.5l1.64-3.58L13.73 16 15 14.73 3.55 3.27 2.27 4.55zM5.82 3l2 2h1.76l-.55 1.21 1.71 1.71L12.08 5H16V3H5.82z" ] [] ]
+format_clear = icon "0 0 48 48" [ Svg.path [ d "M6.54 10L4 12.55l13.94 13.94L13 38h6l3.14-7.32L33.46 42 36 39.45 7.09 10.55 6.54 10zM12 10v.36L17.64 16h4.79l-1.44 3.35 4.2 4.2L28.43 16H40v-6H12z" ] [] ]
 {-|-}
 format_color_fill : Color -> Int -> Svg msg
-format_color_fill = icon "0 0 18 18" [ Svg.path [ d "M0 15h18v3H0z", fillOpacity ".36" ] [] ]
+format_color_fill = icon "0 0 48 48" [ Svg.path [ d "M33.12 17.88L15.24 0l-2.83 2.83 4.76 4.76L6.88 17.88c-1.17 1.17-1.17 3.07 0 4.24l11 11c.58.59 1.35.88 2.12.88s1.54-.29 2.12-.88l11-11c1.17-1.17 1.17-3.07 0-4.24zM10.41 20L20 10.42 29.59 20H10.41zM38 23s-4 4.33-4 7c0 2.21 1.79 4 4 4s4-1.79 4-4c0-2.67-4-7-4-7z" ] [] ]
 {-|-}
 format_color_reset : Color -> Int -> Svg msg
-format_color_reset = icon "0 0 18 18" [ Svg.path [ d "M14 11c0-3.33-5-9-5-9s-.85.97-1.85 2.33l6.83 6.83L14 11zM3.55 3.27L2.27 4.55l2.89 2.89C4.49 8.69 4 9.96 4 11c0 2.76 2.24 5 5 5 1.31 0 2.49-.52 3.39-1.34L14.73 17 16 15.73 3.55 3.27z" ] [] ]
+format_color_reset = icon "0 0 48 48" [ Svg.path [ d "M36 28c0-8-12-21.6-12-21.6s-2.66 3.02-5.47 7.04L35.7 30.61c.19-.84.3-1.71.3-2.61zm-1.76 6.24L25 25 10.54 10.54 8 13.09l6.64 6.64C13.11 22.65 12 25.58 12 28c0 6.63 5.37 12 12 12 3.04 0 5.8-1.14 7.91-3l5.27 5.27 2.54-2.55-5.48-5.48z" ] [] ]
 {-|-}
 format_color_text : Color -> Int -> Svg msg
-format_color_text = icon "0 0 18 18" [ Svg.path [ d "M0 15h18v3H0z", fillOpacity ".36" ] [] ]
+format_color_text = icon "0 0 48 48" [ Svg.path [ d "M0 40h48v8H0z", fillOpacity ".36" ] [] ]
 {-|-}
 format_indent_decrease : Color -> Int -> Svg msg
-format_indent_decrease = icon "0 0 18 18" [ Svg.path [ d "M8 12h8v-2H8v2zm0-4h8V6H8v2zm8 6H2v2h14v-2zM2 9l3.5 3.5v-7L2 9zm0-7v2h14V2H2z" ] [] ]
+format_indent_decrease = icon "0 0 48 48" [ Svg.path [ d "M22 34h20v-4H22v4zM6 24l8 8V16l-8 8zm0 18h36v-4H6v4zM6 6v4h36V6H6zm16 12h20v-4H22v4zm0 8h20v-4H22v4z" ] [] ]
 {-|-}
 format_indent_increase : Color -> Int -> Svg msg
-format_indent_increase = icon "0 0 18 18" [ Svg.path [ d "M8 12h8v-2H8v2zM5.5 9L2 5.5v7L5.5 9zM2 16h14v-2H2v2zM2 2v2h14V2H2zm6 6h8V6H8v2z" ] [] ]
+format_indent_increase = icon "0 0 48 48" [ Svg.path [ d "M6 42h36v-4H6v4zm0-26v16l8-8-8-8zm16 18h20v-4H22v4zM6 6v4h36V6H6zm16 12h20v-4H22v4zm0 8h20v-4H22v4z" ] [] ]
 {-|-}
 format_italic : Color -> Int -> Svg msg
-format_italic = icon "0 0 18 18" [ Svg.path [ d "M7 2v2h2.58l-3.66 8H3v2h8v-2H8.42l3.66-8H15V2z" ] [] ]
+format_italic = icon "0 0 48 48" [ Svg.path [ d "M20 8v6h4.43l-6.86 16H12v6h16v-6h-4.43l6.86-16H36V8z" ] [] ]
 {-|-}
 format_line_spacing : Color -> Int -> Svg msg
-format_line_spacing = icon "0 0 18 18" [ Svg.path [ d "M9 15h9v-2H9v2zM9 3v2h9V3H9zM7.5 5L4 1.5.5 5H3v8H.5L4 16.5 7.5 13H5V5h2.5zM9 10h9V8H9v2z" ] [] ]
+format_line_spacing = icon "0 0 48 48" [ Svg.path [ d "M12 14h5l-7-7-7 7h5v20H3l7 7 7-7h-5V14zm8-4v4h24v-4H20zm0 28h24v-4H20v4zm0-12h24v-4H20v4z" ] [] ]
 {-|-}
 format_list_bulleted : Color -> Int -> Svg msg
-format_list_bulleted = icon "0 0 18 18" [ Svg.path [ d "M7 10h9V8H7v2zm0-7v2h9V3H7zm0 12h9v-2H7v2zm-4-5h2V8H3v2zm0-7v2h2V3H3zm0 12h2v-2H3v2z" ] [] ]
+format_list_bulleted = icon "0 0 48 48" [ Svg.path [ d "M8 21c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3zM8 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3zm0 24c-1.67 0-3 1.35-3 3s1.35 3 3 3 3-1.35 3-3-1.33-3-3-3zm6 5h28v-4H14v4zm0-12h28v-4H14v4zm0-16v4h28v-4H14z" ] [] ]
 {-|-}
 format_list_numbered : Color -> Int -> Svg msg
-format_list_numbered = icon "0 0 18 18" [ Svg.path [ d "M2 13h2v.5H3v1h1v.5H2v1h3v-4H2v1zm0-5h1.8L2 10.1v.9h3v-1H3.2L5 7.9V7H2v1zm1-2h1V2H2v1h1v3zm4-3v2h9V3H7zm0 12h9v-2H7v2zm0-5h9V8H7v2z" ] [] ]
+format_list_numbered = icon "0 0 48 48" [ Svg.path [ d "M4 34h4v1H6v2h2v1H4v2h6v-8H4v2zm2-18h2V8H4v2h2v6zm-2 6h3.6L4 26.2V28h6v-2H6.4l3.6-4.2V20H4v2zm10-12v4h28v-4H14zm0 28h28v-4H14v4zm0-12h28v-4H14v4z" ] [] ]
 {-|-}
 format_paint : Color -> Int -> Svg msg
-format_paint = icon "0 0 18 18" [ Svg.path [ d "M13 3c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v3c0 .55.45 1 1 1h8c.55 0 1-.45 1-1V5h1.5v3H7v8h2V9.5h7V4h-3V3z" ] [] ]
+format_paint = icon "0 0 48 48" [ Svg.path [ d "M36 8V6c0-1.1-.9-2-2-2H10c-1.1 0-2 .9-2 2v8c0 1.1.9 2 2 2h24c1.1 0 2-.9 2-2v-2h2v8H18v22c0 1.1.9 2 2 2h4c1.1 0 2-.9 2-2V24h16V8h-6z" ] [] ]
 {-|-}
 format_quote : Color -> Int -> Svg msg
-format_quote = icon "0 0 18 18" [ Svg.path [ d "M10 5v5h2.75L11 13h2.25L15 10V5h-5zm-7 5h2.75L4 13h2.25L8 10V5H3v5z" ] [] ]
+format_quote = icon "0 0 48 48" [ Svg.path [ d "M12 34h6l4-8V14H10v12h6zm16 0h6l4-8V14H26v12h6z" ] [] ]
 {-|-}
 format_shapes : Color -> Int -> Svg msg
-format_shapes = icon "0 0 24 24" [ Svg.path [ d "M23 7V1h-6v2H7V1H1v6h2v10H1v6h6v-2h10v2h6v-6h-2V7h2zM3 3h2v2H3V3zm2 18H3v-2h2v2zm12-2H7v-2H5V7h2V5h10v2h2v10h-2v2zm4 2h-2v-2h2v2zM19 5V3h2v2h-2zm-5.27 9h-3.49l-.73 2H7.89l3.4-9h1.4l3.41 9h-1.63l-.74-2zm-3.04-1.26h2.61L12 8.91l-1.31 3.83z" ] [] ]
+format_shapes = icon "0 0 48 48" [ Svg.path [ d "M46 14V2H34v4H14V2H2v12h4v20H2v12h12v-4h20v4h12V34h-4V14h4zM6 6h4v4H6V6zm4 36H6v-4h4v4zm24-4H14v-4h-4V14h4v-4h20v4h4v20h-4v4zm8 4h-4v-4h4v4zm-4-32V6h4v4h-4zM27.47 28H20.5l-1.46 4h-3.25l6.8-18h2.81l6.81 18h-3.26l-1.48-4zm-6.1-2.52h5.22l-2.61-7.66-2.61 7.66z" ] [] ]
 {-|-}
 format_size : Color -> Int -> Svg msg
-format_size = icon "0 0 18 18" [ Svg.path [ d "M1 9h3v6h2V9h3V7H1v2zm6-6v2h4v10h2V5h4V3H7z" ] [] ]
+format_size = icon "0 0 48 48" [ Svg.path [ d "M18 8v6h10v24h6V14h10V8H18zM6 24h6v14h6V24h6v-6H6v6z" ] [] ]
 {-|-}
 format_strikethrough : Color -> Int -> Svg msg
-format_strikethrough = icon "0 0 18 18" [ Svg.path [ d "M8 15h2v-4H8v4zM4 2v2h4v3h2V4h4V2H4zm-1 8h12V8H3v2z" ] [] ]
+format_strikethrough = icon "0 0 48 48" [ Svg.path [ d "M20 38h8v-6h-8v6zM10 8v6h10v6h8v-6h10V8H10zM6 28h36v-4H6v4z" ] [] ]
 {-|-}
 format_textdirection_l_to_r : Color -> Int -> Svg msg
-format_textdirection_l_to_r = icon "0 0 18 18" [ Svg.path [ d "M6 7v5h2V2h1v10h2V2h1V1H6C4.34 1 3 2.34 3 4s1.34 3 3 3zm10 8l-3-3v2H2v2h11v2l3-3z" ] [] ]
+format_textdirection_l_to_r = icon "0 0 48 48" [ Svg.path [ d "M18 20v10h4V8h4v22h4V8h4V4H18c-4.42 0-8 3.58-8 8s3.58 8 8 8zm24 16l-8-8v6H10v4h24v6l8-8z" ] [] ]
 {-|-}
 format_textdirection_r_to_l : Color -> Int -> Svg msg
-format_textdirection_r_to_l = icon "0 0 18 18" [ Svg.path [ d "M7 7v5h2V2h1v10h2V2h1V1H7C5.34 1 4 2.34 4 4s1.34 3 3 3zM5 18v-2h11v-2H5v-2l-3 3 3 3z" ] [] ]
+format_textdirection_r_to_l = icon "0 0 48 48" [ Svg.path [ d "M20 20v10h4V8h4v22h4V8h4V4H20c-4.42 0-8 3.58-8 8s3.58 8 8 8zm-4 14v-6l-8 8 8 8v-6h24v-4H16z" ] [] ]
 {-|-}
 format_underlined : Color -> Int -> Svg msg
-format_underlined = icon "0 0 18 18" [ Svg.path [ d "M9 13c2.76 0 5-2.24 5-5V1h-2.5v7c0 1.38-1.12 2.5-2.5 2.5S6.5 9.38 6.5 8V1H4v7c0 2.76 2.24 5 5 5zm-6 2v2h12v-2H3z" ] [] ]
+format_underlined = icon "0 0 48 48" [ Svg.path [ d "M24 34c6.63 0 12-5.37 12-12V6h-5v16c0 3.87-3.13 7-7 7s-7-3.13-7-7V6h-5v16c0 6.63 5.37 12 12 12zm-14 4v4h28v-4H10z" ] [] ]
 {-|-}
 functions : Color -> Int -> Svg msg
-functions = icon "0 0 18 18" [ Svg.path [ d "M14 2H4v1.8L9.5 9 4 14.2V16h10v-2H7.1L12 9 7.1 4H14z" ] [] ]
+functions = icon "0 0 48 48" [ Svg.path [ d "M36 8H12v4l13 12-13 12v4h24v-6H22l10-10-10-10h14z" ] [] ]
 {-|-}
 highlight : Color -> Int -> Svg msg
-highlight = icon "0 0 24 24" [ Svg.path [ d "M6 14l3 3v5h6v-5l3-3V9H6zm5-12h2v3h-2zM3.5 5.875L4.914 4.46l2.12 2.122L5.62 7.997zm13.46.71l2.123-2.12 1.414 1.414L18.375 8z" ] [] ]
+highlight = icon "0 0 48 48" [ Svg.path [ d "M12 28l6 6v10h12V34l6-6V18H12zM22 4h4v6h-4zM7 11.75l2.828-2.828 4.243 4.243-2.82 2.828zm26.923 1.422l4.242-4.242 2.83 2.828L36.75 16z" ] [] ]
 {-|-}
 insert_chart : Color -> Int -> Svg msg
-insert_chart = icon "0 0 18 18" [ Svg.path [ d "M16 1H2c-.55 0-1 .45-1 1v14c0 .55.45 1 1 1h14c.55 0 1-.45 1-1V2c0-.55-.45-1-1-1zM7 13H5V8h2v5zm3 0H8V5h2v8zm3 0h-2V9h2v4z" ] [] ]
+insert_chart = icon "0 0 48 48" [ Svg.path [ d "M38 6H10c-2.21 0-4 1.79-4 4v28c0 2.21 1.79 4 4 4h28c2.21 0 4-1.79 4-4V10c0-2.21-1.79-4-4-4zM18 34h-4V20h4v14zm8 0h-4V14h4v20zm8 0h-4v-8h4v8z" ] [] ]
 {-|-}
 insert_comment : Color -> Int -> Svg msg
-insert_comment = icon "0 0 18 18" [ Svg.path [ d "M17 3c0-.55-.45-1-1-1H2c-.55 0-1 .45-1 1v11c0 .55.45 1 1 1h11.5l3.5 3V3zm-4 8H5V9h8v2zm0-3H5V6h8v2z" ] [] ]
+insert_comment = icon "0 0 48 48" [ Svg.path [ d "M40 4H8C5.79 4 4 5.79 4 8v24c0 2.21 1.79 4 4 4h28l8 8V8c0-2.21-1.79-4-4-4zm-4 24H12v-4h24v4zm0-6H12v-4h24v4zm0-6H12v-4h24v4z" ] [] ]
 {-|-}
 insert_drive_file : Color -> Int -> Svg msg
-insert_drive_file = icon "0 0 18 18" [ Svg.path [ d "M4 1c-.55 0-.99.45-.99 1L3 16c0 .55.44 1 1 1h10c.55 0 1-.45 1-1V6l-5-5H4zm6 5V2l4 4h-4z" ] [] ]
+insert_drive_file = icon "0 0 48 48" [ Svg.path [ d "M12 4C9.79 4 8.02 5.79 8.02 8L8 40c0 2.21 1.77 4 3.98 4H36c2.21 0 4-1.79 4-4V16L28 4H12zm14 14V7l11 11H26z" ] [] ]
 {-|-}
 insert_emoticon : Color -> Int -> Svg msg
-insert_emoticon = icon "0 0 18 18" [ Svg.path [ d "M6 8c.55 0 1-.45 1-1s-.45-1-1-1-1 .45-1 1 .45 1 1 1zm6 0c.55 0 1-.45 1-1s-.45-1-1-1-1 .45-1 1 .45 1 1 1zm-3 5.5c2.14 0 3.92-1.5 4.38-3.5H4.62c.46 2 2.24 3.5 4.38 3.5zM9 1C4.57 1 1 4.58 1 9s3.57 8 8 8 8-3.58 8-8-3.58-8-8-8zm0 14.5c-3.59 0-6.5-2.91-6.5-6.5S5.41 2.5 9 2.5s6.5 2.91 6.5 6.5-2.91 6.5-6.5 6.5z" ] [] ]
+insert_emoticon = icon "0 0 48 48" [ Svg.path [ d "M23.99 4C12.94 4 4 12.95 4 24s8.94 20 19.99 20C35.04 44 44 35.05 44 24S35.04 4 23.99 4zM24 40c-8.84 0-16-7.16-16-16S15.16 8 24 8s16 7.16 16 16-7.16 16-16 16zm7-18c1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3 1.34 3 3 3zm-14 0c1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3 1.34 3 3 3zm7 13c4.66 0 8.61-2.91 10.21-7H13.79c1.6 4.09 5.55 7 10.21 7z" ] [] ]
 {-|-}
 insert_invitation : Color -> Int -> Svg msg
-insert_invitation = icon "0 0 18 18" [ Svg.path [ d "M13 9H9v4h4V9zm3-7h-1V0h-2v2H5V0H3v2H2c-.55 0-1 .45-1 1v13c0 .55.45 1 1 1h14c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 13H3V6h12v9z" ] [] ]
+insert_invitation = icon "0 0 48 48" [ Svg.path [ d "M34 24H24v10h10V24zM32 2v4H16V2h-4v4h-2c-2.21 0-3.98 1.79-3.98 4L6 38c0 2.21 1.79 4 4 4h28c2.21 0 4-1.79 4-4V10c0-2.21-1.79-4-4-4h-2V2h-4zm6 36H10V16h28v22z" ] [] ]
 {-|-}
 insert_link : Color -> Int -> Svg msg
-insert_link = icon "0 0 18 18" [ Svg.path [ d "M1.9 9c0-1.16.94-2.1 2.1-2.1h4V5H4C1.79 5 0 6.79 0 9s1.79 4 4 4h4v-1.9H4c-1.16 0-2.1-.94-2.1-2.1zM14 5h-4v1.9h4c1.16 0 2.1.94 2.1 2.1 0 1.16-.94 2.1-2.1 2.1h-4V13h4c2.21 0 4-1.79 4-4s-1.79-4-4-4zm-8 5h6V8H6v2z" ] [] ]
+insert_link = icon "0 0 48 48" [ Svg.path [ d "M7.8 24c0-3.42 2.78-6.2 6.2-6.2h8V14h-8C8.48 14 4 18.48 4 24s4.48 10 10 10h8v-3.8h-8c-3.42 0-6.2-2.78-6.2-6.2zm8.2 2h16v-4H16v4zm18-12h-8v3.8h8c3.42 0 6.2 2.78 6.2 6.2s-2.78 6.2-6.2 6.2h-8V34h8c5.52 0 10-4.48 10-10s-4.48-10-10-10z" ] [] ]
 {-|-}
 insert_photo : Color -> Int -> Svg msg
-insert_photo = icon "0 0 18 18" [ Svg.path [ d "M16 1H2c-.55 0-1 .45-1 1v14c0 .55.45 1 1 1h14c.55 0 1-.45 1-1V2c0-.55-.45-1-1-1zM3.5 13l2.75-3.54 1.96 2.36 2.75-3.54L14.5 13h-11z" ] [] ]
+insert_photo = icon "0 0 48 48" [ Svg.path [ d "M42 38V10c0-2.21-1.79-4-4-4H10c-2.21 0-4 1.79-4 4v28c0 2.21 1.79 4 4 4h28c2.21 0 4-1.79 4-4zM17 27l5 6.01L29 24l9 12H10l7-9z" ] [] ]
 {-|-}
 linear_scale : Color -> Int -> Svg msg
-linear_scale = icon "0 0 24 24" [ Svg.path [ d "M19.5 9.5c-1.03 0-1.9.62-2.29 1.5h-2.92c-.39-.88-1.26-1.5-2.29-1.5s-1.9.62-2.29 1.5H6.79c-.39-.88-1.26-1.5-2.29-1.5C3.12 9.5 2 10.62 2 12s1.12 2.5 2.5 2.5c1.03 0 1.9-.62 2.29-1.5h2.92c.39.88 1.26 1.5 2.29 1.5s1.9-.62 2.29-1.5h2.92c.39.88 1.26 1.5 2.29 1.5 1.38 0 2.5-1.12 2.5-2.5s-1.12-2.5-2.5-2.5z" ] [] ]
+linear_scale = icon "0 0 48 48" [ Svg.path [ d "M39 19c-2.05 0-3.81 1.23-4.58 3h-5.84c-.77-1.77-2.53-3-4.58-3s-3.81 1.23-4.58 3h-5.84c-.77-1.77-2.53-3-4.58-3-2.77 0-5 2.23-5 5s2.23 5 5 5c2.05 0 3.81-1.23 4.58-3h5.84c.77 1.77 2.53 3 4.58 3s3.81-1.23 4.58-3h5.84c.77 1.77 2.53 3 4.58 3 2.77 0 5-2.23 5-5s-2.23-5-5-5z" ] [] ]
 {-|-}
 merge_type : Color -> Int -> Svg msg
-merge_type = icon "0 0 18 18" [ Svg.path [ d "M9 1.5L5.5 5H8v4.59l-5 5L4.41 16 10 10.41V5h2.5L9 1.5zm3 10.09L10.59 13l3 3L15 14.59l-3-3z" ] [] ]
+merge_type = icon "0 0 48 48" [ Svg.path [ d "M34 40.83L36.83 38 30 31.17 27.17 34 34 40.83zM15 16h7v11.17L11.17 38 14 40.83l12-12V16h7l-9-9-9 9z" ] [] ]
 {-|-}
 mode_comment : Color -> Int -> Svg msg
-mode_comment = icon "0 0 18 18" [ Svg.path [ d "M17 3c0-.55-.45-1-1-1H2c-.55 0-1 .45-1 1v11c0 .55.45 1 1 1h11.5l3.5 3V3z" ] [] ]
+mode_comment = icon "0 0 48 48" [ Svg.path [ d "M43.98 8c0-2.21-1.77-4-3.98-4H8C5.79 4 4 5.79 4 8v24c0 2.21 1.79 4 4 4h28l8 8-.02-36z" ] [] ]
 {-|-}
 mode_edit : Color -> Int -> Svg msg
-mode_edit = icon "0 0 18 18" [ Svg.path [ d "M2 12.88V16h3.12L14 7.12 10.88 4 2 12.88zm14.76-8.51c.33-.33.33-.85 0-1.18l-1.95-1.95c-.33-.33-.85-.33-1.18 0L12 2.88 15.12 6l1.64-1.63z" ] [] ]
+mode_edit = icon "0 0 48 48" [ Svg.path [ d "M6 34.5V42h7.5l22.13-22.13-7.5-7.5L6 34.5zm35.41-20.41c.78-.78.78-2.05 0-2.83l-4.67-4.67c-.78-.78-2.05-.78-2.83 0l-3.66 3.66 7.5 7.5 3.66-3.66z" ] [] ]
 {-|-}
 monetization_on : Color -> Int -> Svg msg
-monetization_on = icon "0 0 24 24" [ Svg.path [ d "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1.41 16.09V20h-2.67v-1.93c-1.71-.36-3.16-1.46-3.27-3.4h1.96c.1 1.05.82 1.87 2.65 1.87 1.96 0 2.4-.98 2.4-1.59 0-.83-.44-1.61-2.67-2.14-2.48-.6-4.18-1.62-4.18-3.67 0-1.72 1.39-2.84 3.11-3.21V4h2.67v1.95c1.86.45 2.79 1.86 2.85 3.39H14.3c-.05-1.11-.64-1.87-2.22-1.87-1.5 0-2.4.68-2.4 1.64 0 .84.65 1.39 2.67 1.91s4.18 1.39 4.18 3.91c-.01 1.83-1.38 2.83-3.12 3.16z" ] [] ]
+monetization_on = icon "0 0 48 48" [ Svg.path [ d "M24 4C12.95 4 4 12.95 4 24s8.95 20 20 20 20-8.95 20-20S35.05 4 24 4zm2.83 32.18V40H21.5v-3.86c-3.41-.73-6.33-2.92-6.54-6.81h3.91c.2 2.1 1.64 3.73 5.3 3.73 3.93 0 4.8-1.96 4.8-3.18 0-1.65-.89-3.22-5.33-4.28-4.96-1.19-8.36-3.24-8.36-7.34 0-3.43 2.77-5.67 6.22-6.42V8h5.33v3.89c3.72.91 5.58 3.72 5.71 6.77H28.6c-.11-2.22-1.28-3.73-4.44-3.73-3 0-4.8 1.35-4.8 3.29 0 1.69 1.3 2.77 5.33 3.82 4.04 1.05 8.36 2.77 8.36 7.82 0 3.65-2.76 5.66-6.22 6.32z" ] [] ]
 {-|-}
 money_off : Color -> Int -> Svg msg
 money_off = icon "0 0 24 24" [ Svg.path [ d "M12.5 6.9c1.78 0 2.44.85 2.5 2.1h2.21c-.07-1.72-1.12-3.3-3.21-3.81V3h-3v2.16c-.53.12-1.03.3-1.48.54l1.47 1.47c.41-.17.91-.27 1.51-.27zM5.33 4.06L4.06 5.33 7.5 8.77c0 2.08 1.56 3.21 3.91 3.91l3.51 3.51c-.34.48-1.05.91-2.42.91-2.06 0-2.87-.92-2.98-2.1h-2.2c.12 2.19 1.76 3.42 3.68 3.83V21h3v-2.15c.96-.18 1.82-.55 2.45-1.12l2.22 2.22 1.27-1.27L5.33 4.06z" ] [] ]
 {-|-}
 multiline_chart : Color -> Int -> Svg msg
-multiline_chart = icon "0 0 24 24" [ Svg.path [ d "M22 6.92l-1.41-1.41-2.85 3.21C15.68 6.4 12.83 5 9.61 5 6.72 5 4.07 6.16 2 8l1.42 1.42C5.12 7.93 7.27 7 9.61 7c2.74 0 5.09 1.26 6.77 3.24l-2.88 3.24-4-4L2 16.99l1.5 1.5 6-6.01 4 4 4.05-4.55c.75 1.35 1.25 2.9 1.44 4.55H21c-.22-2.3-.95-4.39-2.04-6.14L22 6.92z" ] [] ]
+multiline_chart = icon "0 0 48 48" [ Svg.path [ d "M44 13.84l-2.82-2.82-5.71 6.41C31.36 12.81 25.66 10 19.22 10 13.44 10 8.14 12.32 4 16l2.84 2.84c3.4-2.98 7.7-4.84 12.38-4.84 5.48 0 10.18 2.51 13.54 6.49L27 26.96l-8-8L4 33.98l3 3 12-12.02 8 8 8.09-9.1c1.5 2.7 2.5 5.79 2.89 9.1H42c-.44-4.61-1.89-8.78-4.09-12.27L44 13.84z" ] [] ]
 {-|-}
 pie_chart : Color -> Int -> Svg msg
-pie_chart = icon "0 0 24 24" [ Svg.path [ d "M11 2v20c-5.07-.5-9-4.79-9-10s3.93-9.5 9-10zm2.03 0v8.99H22c-.47-4.74-4.24-8.52-8.97-8.99zm0 11.01V22c4.74-.47 8.5-4.25 8.97-8.99h-8.97z" ] [] ]
+pie_chart = icon "0 0 48 48" [ Svg.path [ d "M22 4v40C11.86 42.99 4 34.42 4 24S11.86 5 22 4zm4.06 0v17.99H44C43.06 12.49 35.53 4.94 26.06 4zm0 22.01V44c9.47-.94 17-8.49 17.94-17.99H26.06z" ] [] ]
 {-|-}
 pie_chart_outlined : Color -> Int -> Svg msg
-pie_chart_outlined = icon "0 0 24 24" [ Svg.path [ d "M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm1 2.07c3.61.45 6.48 3.33 6.93 6.93H13V4.07zM4 12c0-4.06 3.07-7.44 7-7.93v15.87c-3.93-.5-7-3.88-7-7.94zm9 7.93V13h6.93c-.45 3.61-3.32 6.48-6.93 6.93z" ] [] ]
+pie_chart_outlined = icon "0 0 48 48" [ Svg.path [ d "M24 4C13 4 4 13 4 24s9 20 20 20 20-9 20-20S35 4 24 4zm2 4.13c7.21.9 12.97 6.66 13.87 13.87H26V8.13zM8 24c0-8.12 6.13-14.88 14-15.87v31.74C14.13 38.88 8 32.12 8 24zm18 15.87V26h13.87c-.9 7.21-6.66 12.97-13.87 13.87z" ] [] ]
 {-|-}
 publish : Color -> Int -> Svg msg
-publish = icon "0 0 18 18" [ Svg.path [ d "M3 2v2h12V2H3zm0 9h3v5h6v-5h3L9 5l-6 6z" ] [] ]
+publish = icon "0 0 48 48" [ Svg.path [ d "M10 8v4h28V8H10zm0 20h8v12h12V28h8L24 14 10 28z" ] [] ]
 {-|-}
 short_text : Color -> Int -> Svg msg
-short_text = icon "0 0 24 24" [ Svg.path [ d "M4 9h16v2H4zm0 4h10v2H4z" ] [] ]
+short_text = icon "0 0 48 48" [ Svg.path [ d "M8 18h32v4H8zm0 8h20v4H8z" ] [] ]
 {-|-}
 show_chart : Color -> Int -> Svg msg
-show_chart = icon "0 0 24 24" [ Svg.path [ d "M3.5 18.49l6-6.01 4 4L22 6.92l-1.41-1.41-7.09 7.97-4-4L2 16.99z" ] [] ]
+show_chart = icon "0 0 48 48" [ Svg.path [ d "M7 36.99l12-12.03 8 8 17-19.12-2.82-2.83L27 26.96l-8-8L4 33.99z" ] [] ]
 {-|-}
 space_bar : Color -> Int -> Svg msg
-space_bar = icon "0 0 24 24" [ Svg.path [ d "M18 9v4H6V9H4v6h16V9z" ] [] ]
+space_bar = icon "0 0 48 48" [ Svg.path [ d "M36 18v8H12v-8H8v12h32V18z" ] [] ]
 {-|-}
 strikethrough_s : Color -> Int -> Svg msg
-strikethrough_s = icon "0 0 24 24" [ Svg.path [ d "M7.24 8.75c-.26-.48-.39-1.03-.39-1.67 0-.61.13-1.16.4-1.67.26-.5.63-.93 1.11-1.29.48-.35 1.05-.63 1.7-.83.66-.19 1.39-.29 2.18-.29.81 0 1.54.11 2.21.34.66.22 1.23.54 1.69.94.47.4.83.88 1.08 1.43.25.55.38 1.15.38 1.81h-3.01c0-.31-.05-.59-.15-.85-.09-.27-.24-.49-.44-.68-.2-.19-.45-.33-.75-.44-.3-.1-.66-.16-1.06-.16-.39 0-.74.04-1.03.13-.29.09-.53.21-.72.36-.19.16-.34.34-.44.55-.1.21-.15.43-.15.66 0 .48.25.88.74 1.21.38.25.77.48 1.41.7H7.39c-.05-.08-.11-.17-.15-.25zM21 12v-2H3v2h9.62c.18.07.4.14.55.2.37.17.66.34.87.51.21.17.35.36.43.57.07.2.11.43.11.69 0 .23-.05.45-.14.66-.09.2-.23.38-.42.53-.19.15-.42.26-.71.35-.29.08-.63.13-1.01.13-.43 0-.83-.04-1.18-.13s-.66-.23-.91-.42c-.25-.19-.45-.44-.59-.75-.14-.31-.25-.76-.25-1.21H6.4c0 .55.08 1.13.24 1.58.16.45.37.85.65 1.21.28.35.6.66.98.92.37.26.78.48 1.22.65.44.17.9.3 1.38.39.48.08.96.13 1.44.13.8 0 1.53-.09 2.18-.28s1.21-.45 1.67-.79c.46-.34.82-.77 1.07-1.27s.38-1.07.38-1.71c0-.6-.1-1.14-.31-1.61-.05-.11-.11-.23-.17-.33H21z" ] [] ]
+strikethrough_s = icon "0 0 48 48" [ Svg.path [ d "M14.47 17.49c-.51-.95-.77-2.06-.77-3.33 0-1.22.26-2.33.79-3.34.53-1.01 1.27-1.87 2.23-2.58s2.09-1.26 3.41-1.65C21.45 6.2 22.89 6 24.47 6c1.62 0 3.09.22 4.41.67 1.32.45 2.45 1.07 3.39 1.88.94.8 1.66 1.75 2.17 2.86.51 1.1.76 2.31.76 3.62h-6.02c0-.61-.1-1.18-.29-1.7-.19-.53-.49-.98-.89-1.35-.4-.37-.9-.67-1.5-.87-.6-.21-1.31-.31-2.13-.31-.79 0-1.47.09-2.06.26-.58.17-1.06.41-1.44.72-.38.31-.67.67-.86 1.08-.19.41-.29.86-.29 1.32 0 .96.49 1.77 1.47 2.42.75.49 1.53.96 2.81 1.4h-9.22c-.1-.17-.21-.33-.31-.51zM42 24v-4H6v4h19.25c.36.14.8.28 1.1.41.74.33 1.32.68 1.74 1.02.42.35.7.73.85 1.13.15.41.22.87.22 1.37 0 .47-.09.91-.27 1.31-.18.41-.46.76-.83 1.05-.37.29-.85.52-1.42.69-.58.17-1.25.25-2.03.25-.87 0-1.66-.09-2.37-.26-.71-.17-1.31-.45-1.81-.83-.5-.38-.89-.88-1.17-1.49-.28-.61-.51-1.53-.51-2.41H12.8c0 1.1.16 2.26.47 3.16.31.9.75 1.71 1.3 2.42s1.21 1.32 1.96 1.84 1.56.96 2.44 1.3c.88.35 1.79.61 2.76.77.96.17 1.93.25 2.89.25 1.6 0 3.06-.18 4.36-.55s2.42-.9 3.34-1.58c.92-.69 1.63-1.53 2.14-2.54s.75-2.15.75-3.43c0-1.2-.21-2.28-.62-3.23-.1-.23-.21-.45-.34-.67H42z" ] [] ]
 {-|-}
 text_fields : Color -> Int -> Svg msg
-text_fields = icon "0 0 24 24" [ Svg.path [ d "M2.5 4v3h5v12h3V7h5V4h-13zm19 5h-9v3h3v7h3v-7h3V9z" ] [] ]
+text_fields = icon "0 0 48 48" [ Svg.path [ d "M5 8v6h10v24h6V14h10V8H5zm38 10H25v6h6v14h6V24h6v-6z" ] [] ]
 {-|-}
 title : Color -> Int -> Svg msg
-title = icon "0 0 24 24" [ Svg.path [ d "M5 4v3h5.5v12h3V7H19V4z" ] [] ]
+title = icon "0 0 48 48" [ Svg.path [ d "M10 8v6h11v24h6V14h11V8z" ] [] ]
 {-|-}
 vertical_align_bottom : Color -> Int -> Svg msg
-vertical_align_bottom = icon "0 0 18 18" [ Svg.path [ d "M12.5 9H10V2H8v7H5.5L9 12.5 12.5 9zM3 14v2h12v-2H3z" ] [] ]
+vertical_align_bottom = icon "0 0 48 48" [ Svg.path [ d "M32 26h-6V6h-4v20h-6l8 8 8-8zM8 38v4h32v-4H8z" ] [] ]
 {-|-}
 vertical_align_center : Color -> Int -> Svg msg
-vertical_align_center = icon "0 0 18 18" [ Svg.path [ d "M12.5 3H10V0H8v3H5.5L9 6.5 12.5 3zM3 8v2h12V8H3zm2.5 7H8v3h2v-3h2.5L9 11.5 5.5 15z" ] [] ]
+vertical_align_center = icon "0 0 48 48" [ Svg.path [ d "M16 38h6v8h4v-8h6l-8-8-8 8zm16-28h-6V2h-4v8h-6l8 8 8-8zM8 22v4h32v-4H8z" ] [] ]
 {-|-}
 vertical_align_top : Color -> Int -> Svg msg
-vertical_align_top = icon "0 0 18 18" [ Svg.path [ d "M3 2v2h12V2H3zm2.5 7H8v7h2V9h2.5L9 5.5 5.5 9z" ] [] ]
+vertical_align_top = icon "0 0 48 48" [ Svg.path [ d "M16 22h6v20h4V22h6l-8-8-8 8zM8 6v4h32V6H8z" ] [] ]
 {-|-}
 wrap_text : Color -> Int -> Svg msg
-wrap_text = icon "0 0 18 18" [ Svg.path [ d "M16 3H2v2h14V3zM2 15h4v-2H2v2zm11.5-7H2v2h11.75c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5H11v-2l-3 3 3 3v-2h2.5c1.93 0 3.5-1.57 3.5-3.5S15.43 8 13.5 8z" ] [] ]
+wrap_text = icon "0 0 48 48" [ Svg.path [ d "M8 38h12v-4H8v4zm32-28H8v4h32v-4zm-6 12H8v4h26.5c2.21 0 4 1.79 4 4s-1.79 4-4 4H30v-4l-6 6 6 6v-4h4c4.41 0 8-3.59 8-8s-3.59-8-8-8z" ] [] ]

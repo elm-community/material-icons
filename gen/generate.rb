@@ -113,7 +113,7 @@ CATEGORIES.each do |cat_path|
 
   # find icons
   svg_files_with_duplicates = %x`ls #{cat_path}svg/production/*.svg`.split("\n")
-  svg_files = svg_files_with_duplicates.reduce([]) do |acc, svg_path|
+  svg_files = svg_files_with_duplicates.reverse.reduce([]) do |acc, svg_path|
     scan = svg_path.scan(/_(\d+x)?(\d+)px\.svg$/).first
     height = scan[1]
     width = scan[0]&.chomp("x") || height
@@ -130,6 +130,8 @@ CATEGORIES.each do |cat_path|
       else acc + [obj]
       end
   end
+
+  svg_files.sort_by! { |x| x[:name] }
 
   # {log}
   puts "Processing #{cat}"
