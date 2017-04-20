@@ -211,3 +211,10 @@ end
 
 %x`mv #{OUT_DIR}/* #{ROOT}/src/Material/Icons`
 %x`rm -rf #{OUT_DIR}`
+
+# Run elm-format
+# ==============
+begin
+  %x`elm-format #{ROOT}/src --yes`
+rescue Errno::ENOENT
+end

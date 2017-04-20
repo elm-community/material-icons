@@ -188,7 +188,7 @@ module Material.Icons.Action exposing (..)
 @docs three_d_rotation
 @docs thumb_down
 @docs thumb_up
-@docs thumps_up_down
+@docs thumbs_up_down
 @docs timeline
 @docs toc
 @docs today
@@ -1328,10 +1328,9 @@ thumb_up =
     icon "0 0 48 48" [ Svg.path [ d "M2 42h8V18H2v24zm44-22c0-2.21-1.79-4-4-4H29.37l1.91-9.14c.04-.2.07-.41.07-.63 0-.83-.34-1.58-.88-2.12L28.34 2 15.17 15.17C14.45 15.9 14 16.9 14 18v20c0 2.21 1.79 4 4 4h18c1.66 0 3.08-1.01 3.68-2.44l6.03-14.1c.18-.46.29-.95.29-1.46v-3.83l-.02-.02L46 20z" ] [] ]
 
 
-{-| **DEPRECATED**: Will be replaced with the correct name `thumbs_up_down` in 2.0.0.
--}
-thumps_up_down : Color -> Int -> Svg msg
-thumps_up_down =
+{-| -}
+thumbs_up_down : Color -> Int -> Svg msg
+thumbs_up_down =
     icon "0 0 48 48" [ Svg.path [ d "M24 12c0-1.1-.9-2-2-2H11.63l1.33-6.35c.03-.15.05-.31.05-.47 0-.62-.25-1.18-.66-1.59L10.76 0 .88 9.88C.34 10.42 0 11.17 0 12v13c0 1.66 1.34 3 3 3h13.5c1.24 0 2.31-.75 2.76-1.83l4.53-10.58c.13-.34.21-.7.21-1.09V12zm21 8H31.5c-1.24 0-2.31.75-2.76 1.83l-4.53 10.58c-.13.34-.21.7-.21 1.09V36c0 1.1.9 2 2 2h10.37l-1.33 6.35c-.03.15-.05.31-.05.47 0 .62.25 1.18.66 1.59L37.24 48l9.88-9.88c.54-.54.88-1.29.88-2.12V23c0-1.66-1.34-3-3-3z" ] [] ]
 
 
