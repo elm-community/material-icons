@@ -25,6 +25,9 @@ icon viewBox children color size =
             ]
 
 
+rgb255: Float -> Int 
+rgb255 value = round (value * 255)
+
 toRgbaString : Color -> String
 toRgbaString color =
     let
@@ -32,11 +35,11 @@ toRgbaString color =
             Color.toRgba color
     in
         "rgba("
-            ++ String.fromFloat red
+            ++ String.fromInt (rgb255 red)
             ++ ","
-            ++ String.fromFloat green
+            ++ String.fromInt (rgb255 green)
             ++ ","
-            ++ String.fromFloat blue
+            ++ String.fromInt (rgb255 blue)
             ++ ","
-            ++ String.fromFloat alpha
+            ++ String.fromInt (rgb255 alpha)
             ++ ")"

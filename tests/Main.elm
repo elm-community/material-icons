@@ -1,6 +1,8 @@
 import Browser
 import Html exposing (Html, div, text)
-import Icons exposing (view)
+import Color
+
+import Material.Icons.Action
 
 main =
   Browser.sandbox { init = 0, update = update, view = view }
@@ -13,7 +15,6 @@ update msg model =
 
 view model =
   div []
-    [ button [ onClick Decrement ] [ text "-" ]
-    , div [] [ text (String.fromInt model) ]
-    , button [ onClick Increment ] [ text "+" ]
+    [ Material.Icons.Action.visibility Color.red 50 
+    , Material.Icons.Action.today Color.green 100 
     ]
