@@ -3,7 +3,7 @@
     "name": "savardd/material-icons",
     "summary": "Material Icons Library",
     "license": "BSD-3-Clause",
-    "version": "1.1.0",
+    "version": "1.0.0",
     "exposed-modules": [
         "Material.Icons.Action",
         "Material.Icons.Alert",
