@@ -1,4 +1,4 @@
-module Material.Icons.Maps exposing (..)
+module Material.Icons.Maps exposing (add_location, beenhere, directions, directions_bike, directions_boat, directions_bus, directions_car, directions_railway, directions_run, directions_subway, directions_transit, directions_walk, edit_location, ev_station, flight, hotel, layers, layers_clear, local_activity, local_airport, local_atm, local_bar, local_cafe, local_car_wash, local_convenience_store, local_dining, local_drink, local_florist, local_gas_station, local_grocery_store, local_hospital, local_hotel, local_laundry_service, local_library, local_mall, local_movies, local_offer, local_parking, local_pharmacy, local_phone, local_pizza, local_play, local_post_office, local_printshop, local_see, local_shipping, local_taxi, map, my_location, navigation, near_me, person_pin, person_pin_circle, pin_drop, place, rate_review, restaurant, restaurant_menu, satellite, store_mall_directory, streetview, subway, terrain, traffic, train, tram, transfer_within_a_station, zoom_out_map)
 
 {-|
 

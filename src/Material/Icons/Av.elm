@@ -1,4 +1,4 @@
-module Material.Icons.Av exposing (..)
+module Material.Icons.Av exposing (add_to_queue, airplay, album, art_track, av_timer, branding_watermark, call_to_action, closed_caption, equalizer, explicit, fast_forward, fast_rewind, featured_play_list, featured_video, fiber_dvr, fiber_manual_record, fiber_new, fiber_pin, fiber_smart_record, forward_10, forward_30, forward_5, games, hd, hearing, high_quality, library_add, library_books, library_music, loop, mic, mic_none, mic_off, movie, music_video, new_releases, not_interested, note, pause, pause_circle_filled, pause_circle_outline, play_arrow, play_circle_filled, play_circle_filled_white, play_circle_outline, playlist_add, playlist_add_check, playlist_play, queue, queue_music, queue_play_next, radio, recent_actors, remove_from_queue, repeat, repeat_one, replay, replay_10, replay_30, replay_5, shuffle, skip_next, skip_previous, slow_motion_video, snooze, sort_by_alpha, stop, subscriptions, subtitles, surround_sound, video_call, video_label, video_library, videocam, videocam_off, volume_down, volume_mute, volume_off, volume_up, web, web_asset)
 
 {-|
 

@@ -1,4 +1,4 @@
-module Material.Icons.Hardware exposing (..)
+module Material.Icons.Hardware exposing (cast, cast_connected, computer, desktop_mac, desktop_windows, developer_board, device_hub, devices_other, dock, gamepad, headset, headset_mic, keyboard, keyboard_arrow_backspace, keyboard_arrow_capslock, keyboard_arrow_down, keyboard_arrow_hide, keyboard_arrow_left, keyboard_arrow_return, keyboard_arrow_right, keyboard_arrow_up, keyboard_tab, keyboard_voice, laptop, laptop_chromebook, laptop_mac, laptop_windows, memory, mouse, phone_android, phone_iphone, phonelink, phonelink_off, power_input, router, scanner, security, sim_card, smartphone, speaker, speaker_group, tablet, tablet_android, tablet_mac, toys, tv, videogame_asset, watch)
 
 {-|
 

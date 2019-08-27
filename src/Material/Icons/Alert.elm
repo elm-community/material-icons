@@ -1,4 +1,4 @@
-module Material.Icons.Alert exposing (..)
+module Material.Icons.Alert exposing (add_alert, error, error_outline, warning)
 
 {-|
 

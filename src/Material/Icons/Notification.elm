@@ -1,4 +1,4 @@
-module Material.Icons.Notification exposing (..)
+module Material.Icons.Notification exposing (adb, airline_seat_flat, airline_seat_flat_angled, airline_seat_individual_suite, airline_seat_legroom_extra, airline_seat_legroom_normal, airline_seat_legroom_reduced, airline_seat_recline_extra, airline_seat_recline_normal, bluetooth_audio, confirmation_number, disc_full, do_not_disturb, do_not_disturb_alt, do_not_disturb_off, do_not_disturb_on, drive_eta, enhanced_encryption, event_available, event_busy, event_note, folder_special, live_tv, mms, more, network_check, network_locked, no_encryption, ondemand_video, personal_video, phone_bluetooth_speaker, phone_forwarded, phone_in_talk, phone_locked, phone_missed, phone_paused, power, priority_high, rv_hookup, sd_card, sim_card_alert, sms, sms_failed, sync, sync_disabled, sync_problem, system_update, tap_and_play, time_to_leave, vibration, voice_chat, vpn_lock, wc, wifi)
 
 {-|
 

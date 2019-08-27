@@ -1,4 +1,4 @@
-module Material.Icons.File exposing (..)
+module Material.Icons.File exposing (attachment, cloud, cloud_circle, cloud_done, cloud_download, cloud_off, cloud_queue, cloud_upload, create_new_folder, file_download, file_upload, folder, folder_open, folder_shared)
 
 {-|
 

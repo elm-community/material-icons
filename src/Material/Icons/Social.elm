@@ -1,4 +1,4 @@
-module Material.Icons.Social exposing (..)
+module Material.Icons.Social exposing (cake, domain, group, group_add, location_city, mood, mood_bad, notifications, notifications_active, notifications_none, notifications_off, notifications_paused, pages, party_mode, people, people_outline, person, person_add, person_outline, plus_one, poll, public, school, sentiment_dissatisfied, sentiment_neutral, sentiment_satisfied, sentiment_very_dissatisfied, sentiment_very_satisfied, share, whatshot)
 
 {-|
 

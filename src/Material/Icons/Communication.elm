@@ -1,4 +1,4 @@
-module Material.Icons.Communication exposing (..)
+module Material.Icons.Communication exposing (business, call, call_end, call_made, call_merge, call_missed, call_missed_outgoing, call_received, call_split, chat, chat_bubble, chat_bubble_outline, clear_all, comment, contact_mail, contact_phone, contacts, dialer_sip, dialpad, email, forum, import_contacts, import_export, invert_colors_off, live_help, location_off, location_on, mail_outline, message, no_sim, phone, phonelink_erase, phonelink_lock, phonelink_ring, phonelink_setup, portable_wifi_off, present_to_all, ring_volume, rss_feed, screen_share, speaker_phone, stay_current_landscape, stay_current_portrait, stay_primary_landscape, stay_primary_portrait, stop_screen_share, swap_calls, textsms, voicemail, vpn_key)
 
 {-|
 
