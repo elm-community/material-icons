@@ -1,13 +1,20 @@
-port module Main exposing (..)
+import Browser
+import Html exposing (Html, div, text)
+import Color
 
-import Test.Runner.Node exposing (run, TestProgram)
-import Tests
-import Json.Encode exposing (Value)
+import Material.Icons.Action
 
-
-main : TestProgram
 main =
-    run emit Tests.all
+  Browser.sandbox { init = 0, update = update, view = view }
 
+type Msg = NoOp
 
-port emit : ( String, Value ) -> Cmd msg
+update msg model =
+  case msg of
+    NoOp -> model
+
+view model =
+  div []
+    [ Material.Icons.Action.visibility Color.red 50 
+    , Material.Icons.Action.today Color.green 100 
+    ]

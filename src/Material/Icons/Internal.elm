@@ -9,7 +9,7 @@ icon : String -> List (Svg msg) -> Color -> Int -> Svg msg
 icon viewBox children color size =
     let
         stringSize =
-            toString size
+            String.fromInt size
 
         stringColor =
             toRgbaString color
@@ -25,18 +25,21 @@ icon viewBox children color size =
             ]
 
 
+rgb255: Float -> Int 
+rgb255 value = round (value * 255)
+
 toRgbaString : Color -> String
 toRgbaString color =
     let
         { red, green, blue, alpha } =
-            Color.toRgb color
+            Color.toRgba color
     in
         "rgba("
-            ++ toString red
+            ++ String.fromInt (rgb255 red)
             ++ ","
-            ++ toString green
+            ++ String.fromInt (rgb255 green)
             ++ ","
-            ++ toString blue
+            ++ String.fromInt (rgb255 blue)
             ++ ","
-            ++ toString alpha
+            ++ String.fromInt (rgb255 alpha)
             ++ ")"

@@ -137,8 +137,18 @@ CATEGORIES.each do |cat_path|
   puts "Processing #{cat}"
 
   # {file} Pt. 1
+  append_to_file cat_out, "module Material.Icons.#{cat} exposing ("
+ 
+  svg_files.each_with_index do |obj,index|
+    icon_name = obj[:name]
+    if index > 0
+      append_to_file cat_out, ", "
+    end
+    append_to_file cat_out, "#{icon_name}"
+  end
+
   append_to_file cat_out, <<~HERE
-  module Material.Icons.#{cat} exposing (..)
+  )
 
   {-|
 
