@@ -1,13 +1,19 @@
-port module Main exposing (..)
+import Browser
+import Html exposing (Html, div, text)
+import Icons exposing (view)
 
-import Test.Runner.Node exposing (run, TestProgram)
-import Tests
-import Json.Encode exposing (Value)
-
-
-main : TestProgram
 main =
-    run emit Tests.all
+  Browser.sandbox { init = 0, update = update, view = view }
 
+type Msg = NoOp
 
-port emit : ( String, Value ) -> Cmd msg
+update msg model =
+  case msg of
+    NoOp -> model
+
+view model =
+  div []
+    [ button [ onClick Decrement ] [ text "-" ]
+    , div [] [ text (String.fromInt model) ]
+    , button [ onClick Increment ] [ text "+" ]
+    ]
